@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AIOps · Plug-in</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Montserrat:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="css/styles.css?v=3">
+</head>
+<body class="panel">
+<div class="sp">
+  <header class="sp-head"><img src="icons/logo.svg" alt=""><b>AIOps</b><span class="sim-tag" id="sp-tag">simulado</span></header>
+  <div class="tabs" role="tablist" aria-label="Seções do plug-in">
+    <button role="tab" id="tab-alertas" aria-selected="true" aria-controls="pan-alertas">Alertas</button>
+    <button role="tab" id="tab-perguntar" aria-selected="false" aria-controls="pan-perguntar">Perguntar</button>
+    <button role="tab" id="tab-resumir" aria-selected="false" aria-controls="pan-resumir">Resumir</button>
+  </div>
+  <div class="sp-body">
+    <section id="pan-alertas" role="tabpanel" aria-labelledby="tab-alertas">
+      <div class="sp-kpis" id="sp-kpis"></div>
+      <ul class="alerts" id="sp-alerts"></ul>
+      <p style="margin-top:12px;font-size:12.5px"><a href="index.html#gerente" target="_blank" rel="noopener">Abrir painel completo ↗</a></p>
+    </section>
+    <section id="pan-perguntar" role="tabpanel" aria-labelledby="tab-perguntar" hidden>
+      <div class="chat" id="sp-chat" role="log" aria-live="polite" style="max-height:48vh">
+        <div class="msg bot">Pergunte sobre incidentes ou serviços. Ex.: “O que causou a falha no checkout hoje?”</div></div>
+      <div class="sugg" id="sp-sugg"><button class="btn small">O que causou a falha no checkout hoje?</button><button class="btn small">Quais serviços estão com incidentes críticos?</button></div>
+      <form class="ask" id="sp-askf"><label class="sr-only" for="sp-q">Sua pergunta</label><input type="text" id="sp-q" placeholder="Digite sua pergunta…" autocomplete="off"><button class="btn primary" type="submit">Enviar</button></form>
+    </section>
+    <section id="pan-resumir" role="tabpanel" aria-labelledby="tab-resumir" hidden>
+      <p style="color:var(--muted);font-size:13.5px;margin-bottom:10px">Selecione um trecho de log na página e use o botão “Resumir com AIOps” (ou o menu de clique direito), ou cole o texto abaixo.</p>
+      <label class="sr-only" for="sp-text">Texto do log</label>
+      <textarea id="sp-text" placeholder="Cole aqui um trecho de log…"></textarea>
+      <div style="display:flex;gap:8px;margin-top:10px;flex-wrap:wrap"><button class="btn primary" id="sp-sum">Resumir</button><button class="btn" id="sp-example">Exemplo do dataset</button></div>
+      <div id="sp-result"></div>
+    </section>
+  </div>
+</div>
+<script src="js/dataset.js"></script>
+<script src="js/mock-data.js"></script>
+<script src="js/api.js?v=3"></script>
+<script src="js/components.js?v=3"></script>
+<script src="js/sidepanel.js?v=3"></script>
+</body>
+</html>

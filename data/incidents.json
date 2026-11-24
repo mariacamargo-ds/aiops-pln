@@ -1,0 +1,162 @@
+[
+ {
+  "id": "INC-001",
+  "service": "payments-api",
+  "severity": "critico",
+  "title": "Timeouts em cascata no gateway de pagamentos",
+  "summary": "47 alertas de timeout e erro 502 foram agrupados em um único incidente. Provável causa: esgotamento do pool de conexões com o banco após o último deploy.",
+  "sla": "15 min"
+ },
+ {
+  "id": "INC-002",
+  "service": "checkout-service",
+  "severity": "critico",
+  "title": "Falha em finalização de compra (HTTP 500)",
+  "summary": "63 ocorrências de erro 500 na finalização de compra, correlacionadas ao incidente de payments-api. Tratar os dois como um único incidente.",
+  "sla": "15 min"
+ },
+ {
+  "id": "INC-003",
+  "service": "api-gateway",
+  "severity": "critico",
+  "title": "Taxa de erro 5xx acima de 20% no gateway",
+  "summary": "38 alertas de erro 5xx agrupados. O gateway está devolvendo falhas por indisponibilidade de serviços internos, em linha com o incidente de payments-api.",
+  "sla": "15 min"
+ },
+ {
+  "id": "INC-004",
+  "service": "db-primary",
+  "severity": "critico",
+  "title": "Conexões do banco principal no limite",
+  "summary": "O banco principal atingiu 98% do limite de conexões. É a provável origem do esgotamento do pool em payments-api.",
+  "sla": "15 min"
+ },
+ {
+  "id": "INC-005",
+  "service": "orders-worker",
+  "severity": "alto",
+  "title": "Fila de pedidos acumulando",
+  "summary": "A fila cresceu de 120 para 4.800 mensagens em 20 minutos. Consumidores estão lentos, possivelmente por dependência de payments-api.",
+  "sla": "1 h"
+ },
+ {
+  "id": "INC-006",
+  "service": "auth-service",
+  "severity": "alto",
+  "title": "Aumento de falhas de login",
+  "summary": "12 alertas de falha de autenticação. Taxa de erro subiu de 0,8% para 6,3%. Verificar expiração de credenciais do provedor de identidade.",
+  "sla": "1 h"
+ },
+ {
+  "id": "INC-007",
+  "service": "inventory-service",
+  "severity": "alto",
+  "title": "Divergência de estoque após atualização em lote",
+  "summary": "Sete alertas indicam diferença entre o estoque reservado e o disponível depois da carga em lote das 13h20. Pode gerar vendas de itens indisponíveis.",
+  "sla": "1 h"
+ },
+ {
+  "id": "INC-008",
+  "service": "search-service",
+  "severity": "alto",
+  "title": "Latência de busca acima do normal",
+  "summary": "O p95 da busca subiu de 180 ms para 1.900 ms. O índice está sendo reconstruído e disputa CPU com as consultas.",
+  "sla": "1 h"
+ },
+ {
+  "id": "INC-009",
+  "service": "billing-worker",
+  "severity": "alto",
+  "title": "Cobranças recorrentes com falha de comunicação",
+  "summary": "Seis lotes de cobrança recorrente falharam por timeout no provedor de pagamento. As tentativas seguintes estão agendadas.",
+  "sla": "1 h"
+ },
+ {
+  "id": "INC-010",
+  "service": "cache-redis",
+  "severity": "medio",
+  "title": "Uso de memória acima de 85%",
+  "summary": "O cache está próximo do limite de memória e começou a remover chaves (evictions). Sem impacto visível ao usuário até o momento.",
+  "sla": "4 h"
+ },
+ {
+  "id": "INC-011",
+  "service": "k8s-node-07",
+  "severity": "medio",
+  "title": "Disco do nó com 82% de uso",
+  "summary": "O nó 07 do cluster está com pouco espaço em disco, principalmente por logs antigos de contêiner. Ainda sem impacto nos serviços.",
+  "sla": "4 h"
+ },
+ {
+  "id": "INC-012",
+  "service": "scheduler",
+  "severity": "medio",
+  "title": "Tarefas agendadas executando com atraso",
+  "summary": "Três rotinas do agendador começaram com mais de 5 minutos de atraso. Possível sobrecarga do nó que executa o scheduler.",
+  "sla": "4 h"
+ },
+ {
+  "id": "INC-013",
+  "service": "log-collector",
+  "severity": "medio",
+  "title": "Atraso na coleta de logs",
+  "summary": "O coletor de logs apresenta atraso de 6 minutos. Pode atrasar a detecção de novos incidentes.",
+  "sla": "4 h"
+ },
+ {
+  "id": "INC-014",
+  "service": "web-frontend",
+  "severity": "medio",
+  "title": "Aumento de erros de JavaScript no navegador",
+  "summary": "Foram registrados 8 alertas de erro de JavaScript após a publicação da versão 3.14. Afeta a página de carrinho em parte dos navegadores.",
+  "sla": "4 h"
+ },
+ {
+  "id": "INC-015",
+  "service": "sso-provider",
+  "severity": "medio",
+  "title": "Lentidão no provedor de identidade",
+  "summary": "O provedor de identidade respondeu em média 2,4 s. Relacionado ao aumento de falhas de login em auth-service.",
+  "sla": "4 h"
+ },
+ {
+  "id": "INC-016",
+  "service": "notification-service",
+  "severity": "baixo",
+  "title": "Reenvio de notificações por e-mail",
+  "summary": "Dois lotes de e-mail foram reenviados após falha temporária do provedor. Já normalizado.",
+  "sla": "24 h"
+ },
+ {
+  "id": "INC-017",
+  "service": "backup-job",
+  "severity": "baixo",
+  "title": "Backup noturno concluído com atraso",
+  "summary": "O backup noturno terminou 40 minutos depois do previsto. Concluído com sucesso e sem perda de dados.",
+  "sla": "24 h"
+ },
+ {
+  "id": "INC-018",
+  "service": "cdn-edge",
+  "severity": "baixo",
+  "title": "Taxa de acerto do cache da CDN abaixo da meta",
+  "summary": "A taxa de acerto do cache caiu para 71% (meta de 85%) após a publicação de novas imagens. Tende a normalizar sozinha.",
+  "sla": "24 h"
+ },
+ {
+  "id": "INC-019",
+  "service": "cert-manager",
+  "severity": "baixo",
+  "title": "Certificado expira em 12 dias",
+  "summary": "Um certificado TLS interno vence em 12 dias. Renovação deve ser agendada.",
+  "sla": "24 h"
+ },
+ {
+  "id": "INC-020",
+  "service": "metrics-agent",
+  "severity": "baixo",
+  "title": "Agente de métricas reiniciado",
+  "summary": "O agente de métricas foi reiniciado duas vezes no mesmo nó. Sem falta de dados na janela observada.",
+  "sla": "24 h"
+ }
+]

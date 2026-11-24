@@ -1,0 +1,11 @@
+.env
+data/aiops.db
+data/chroma/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+aiops.venv/
+.venv/
+venv/
+.streamlit/secrets.toml

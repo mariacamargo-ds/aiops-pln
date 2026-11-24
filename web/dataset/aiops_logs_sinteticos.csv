@@ -1,0 +1,1001 @@
+﻿log_id,timestamp,service,level,severity,message,incident_id,is_relevant,template_id
+L0001,2026-10-13 09:56:01,log-collector,INFO,ruido,Rotação de arquivo de log concluída,,0,T071
+L0002,2026-10-13 09:56:17,auth-service,INFO,ruido,Token renovado (rotina),,0,T068
+L0003,2026-10-13 09:56:36,scheduler,INFO,ruido,Execução de rotina concluída sem alterações,,0,T078
+L0004,2026-10-13 09:56:40,notification-service,INFO,ruido,Template de e-mail recarregado,,0,T073
+L0005,2026-10-13 09:57:23,log-collector,INFO,ruido,Rotação de arquivo de log concluída,,0,T071
+L0006,2026-10-13 09:57:26,log-collector,INFO,ruido,Rotação de arquivo de log concluída,,0,T071
+L0007,2026-10-13 09:57:42,scheduler,INFO,ruido,Execução de rotina concluída sem alterações,,0,T078
+L0008,2026-10-13 09:58:24,metrics-agent,INFO,baixo,resumed scrape_interval=15s,INC-020,1,T066
+L0009,2026-10-13 09:58:58,metrics-agent,INFO,ruido,Coleta de métricas concluída,,0,T070
+L0010,2026-10-13 09:59:11,metrics-agent,WARN,baixo,restart count=2 reason=oom_killed node=k8s-node-03,INC-020,1,T065
+L0011,2026-10-13 09:59:46,web-frontend,WARN,ruido,Aviso de depreciação de biblioteca,,0,T072
+L0012,2026-10-13 10:00:08,metrics-agent,INFO,baixo,resumed scrape_interval=15s,INC-020,1,T066
+L0013,2026-10-13 10:01:01,metrics-agent,INFO,baixo,resumed scrape_interval=15s,INC-020,1,T066
+L0014,2026-10-13 10:01:07,metrics-agent,WARN,baixo,restart count=2 reason=oom_killed node=k8s-node-03,INC-020,1,T065
+L0015,2026-10-13 10:01:14,metrics-agent,INFO,baixo,resumed scrape_interval=15s,INC-020,1,T066
+L0016,2026-10-13 10:01:56,cdn-edge,INFO,ruido,Purge de cache finalizado,,0,T081
+L0017,2026-10-13 10:02:20,metrics-agent,INFO,baixo,targets_up=293,INC-020,1,T067
+L0018,2026-10-13 10:02:35,metrics-agent,INFO,baixo,targets_up=123,INC-020,1,T067
+L0019,2026-10-13 10:02:44,metrics-agent,INFO,baixo,resumed scrape_interval=15s,INC-020,1,T066
+L0020,2026-10-13 10:02:51,api-gateway,INFO,ruido,Health check respondeu em 3773 ms (limite 200 ms),,0,T077
+L0021,2026-10-13 10:02:54,metrics-agent,WARN,baixo,restart count=2 reason=oom_killed node=k8s-node-03,INC-020,1,T065
+L0022,2026-10-13 10:03:34,auth-service,INFO,ruido,Token renovado (rotina),,0,T068
+L0023,2026-10-13 10:05:08,metrics-agent,INFO,baixo,resumed scrape_interval=15s,INC-020,1,T066
+L0024,2026-10-13 10:05:59,metrics-agent,INFO,baixo,targets_up=254,INC-020,1,T067
+L0025,2026-10-13 10:06:28,metrics-agent,WARN,baixo,restart count=2 reason=oom_killed node=k8s-node-03,INC-020,1,T065
+L0026,2026-10-13 10:06:35,metrics-agent,INFO,baixo,resumed scrape_interval=15s,INC-020,1,T066
+L0027,2026-10-13 10:07:26,metrics-agent,INFO,baixo,resumed scrape_interval=15s,INC-020,1,T066
+L0028,2026-10-13 10:08:15,metrics-agent,WARN,baixo,restart count=2 reason=oom_killed node=k8s-node-03,INC-020,1,T065
+L0029,2026-10-13 10:08:53,metrics-agent,INFO,baixo,resumed scrape_interval=15s,INC-020,1,T066
+L0030,2026-10-13 10:09:02,metrics-agent,WARN,baixo,restart count=2 reason=oom_killed node=k8s-node-03,INC-020,1,T065
+L0031,2026-10-13 10:10:07,search-service,INFO,ruido,Cache de consulta aquecido,,0,T079
+L0032,2026-10-13 10:10:22,metrics-agent,INFO,baixo,targets_up=319,INC-020,1,T067
+L0033,2026-10-13 10:11:42,api-gateway,INFO,ruido,Health check respondeu em 6825 ms (limite 200 ms),,0,T077
+L0034,2026-10-13 10:11:46,cache-redis,INFO,ruido,Reconexão automática bem-sucedida,,0,T076
+L0035,2026-10-13 10:11:58,metrics-agent,INFO,baixo,targets_up=84,INC-020,1,T067
+L0036,2026-10-13 10:12:25,web-frontend,WARN,ruido,Aviso de depreciação de biblioteca,,0,T072
+L0037,2026-10-13 10:16:26,metrics-agent,WARN,baixo,restart count=2 reason=oom_killed node=k8s-node-03,INC-020,1,T065
+L0038,2026-10-13 10:16:30,metrics-agent,INFO,baixo,targets_up=212,INC-020,1,T067
+L0039,2026-10-13 10:17:49,cert-manager,INFO,ruido,Verificação diária de certificados concluída,,0,T075
+L0040,2026-10-13 10:18:04,metrics-agent,INFO,baixo,resumed scrape_interval=15s,INC-020,1,T066
+L0041,2026-10-13 10:18:28,metrics-agent,INFO,baixo,resumed scrape_interval=15s,INC-020,1,T066
+L0042,2026-10-13 10:18:35,metrics-agent,WARN,baixo,restart count=2 reason=oom_killed node=k8s-node-03,INC-020,1,T065
+L0043,2026-10-13 10:18:41,db-primary,INFO,ruido,Checkpoint concluído em 5470 ms,,0,T069
+L0044,2026-10-13 10:18:48,metrics-agent,WARN,baixo,restart count=2 reason=oom_killed node=k8s-node-03,INC-020,1,T065
+L0045,2026-10-13 10:18:51,metrics-agent,WARN,baixo,restart count=2 reason=oom_killed node=k8s-node-03,INC-020,1,T065
+L0046,2026-10-13 10:19:41,metrics-agent,INFO,baixo,targets_up=367,INC-020,1,T067
+L0047,2026-10-13 10:21:32,api-gateway,INFO,ruido,Health check respondeu em 7304 ms (limite 200 ms),,0,T077
+L0048,2026-10-13 10:23:03,api-gateway,INFO,ruido,Health check respondeu em 1874 ms (limite 200 ms),,0,T077
+L0049,2026-10-13 10:23:55,orders-worker,INFO,ruido,Mensagem reprocessada com sucesso,,0,T074
+L0050,2026-10-13 10:26:30,cert-manager,WARN,baixo,manual_renewal_required cert=internal-api,INC-019,1,T063
+L0051,2026-10-13 10:27:14,cert-manager,INFO,baixo,renewal_window_open cert=internal-api,INC-019,1,T064
+L0052,2026-10-13 10:29:40,orders-worker,INFO,ruido,Mensagem reprocessada com sucesso,,0,T074
+L0053,2026-10-13 10:30:15,cert-manager,INFO,baixo,renewal_window_open cert=internal-api,INC-019,1,T064
+L0054,2026-10-13 10:30:16,inventory-service,INFO,ruido,Sincronização incremental concluída,,0,T080
+L0055,2026-10-13 10:30:18,cert-manager,WARN,baixo,manual_renewal_required cert=internal-api,INC-019,1,T063
+L0056,2026-10-13 10:30:39,cert-manager,INFO,baixo,cert=internal-api expires_in=12d,INC-019,1,T062
+L0057,2026-10-13 10:31:45,cert-manager,WARN,baixo,manual_renewal_required cert=internal-api,INC-019,1,T063
+L0058,2026-10-13 10:33:26,web-frontend,WARN,ruido,Aviso de depreciação de biblioteca,,0,T072
+L0059,2026-10-13 10:33:38,cert-manager,INFO,baixo,renewal_window_open cert=internal-api,INC-019,1,T064
+L0060,2026-10-13 10:34:25,cert-manager,INFO,baixo,renewal_window_open cert=internal-api,INC-019,1,T064
+L0061,2026-10-13 10:34:34,scheduler,INFO,ruido,Execução de rotina concluída sem alterações,,0,T078
+L0062,2026-10-13 10:35:07,cert-manager,WARN,baixo,manual_renewal_required cert=internal-api,INC-019,1,T063
+L0063,2026-10-13 10:35:17,web-frontend,WARN,ruido,Aviso de depreciação de biblioteca,,0,T072
+L0064,2026-10-13 10:36:02,cert-manager,INFO,baixo,cert=internal-api expires_in=12d,INC-019,1,T062
+L0065,2026-10-13 10:36:57,api-gateway,INFO,ruido,Health check respondeu em 4746 ms (limite 200 ms),,0,T077
+L0066,2026-10-13 10:37:11,cert-manager,INFO,baixo,cert=internal-api expires_in=12d,INC-019,1,T062
+L0067,2026-10-13 10:38:10,cert-manager,INFO,baixo,renewal_window_open cert=internal-api,INC-019,1,T064
+L0068,2026-10-13 10:38:15,cert-manager,WARN,baixo,manual_renewal_required cert=internal-api,INC-019,1,T063
+L0069,2026-10-13 10:38:19,cert-manager,INFO,baixo,cert=internal-api expires_in=12d,INC-019,1,T062
+L0070,2026-10-13 10:39:09,cert-manager,INFO,ruido,Verificação diária de certificados concluída,,0,T075
+L0071,2026-10-13 10:39:43,cert-manager,INFO,baixo,cert=internal-api expires_in=12d,INC-019,1,T062
+L0072,2026-10-13 10:40:14,cert-manager,WARN,baixo,manual_renewal_required cert=internal-api,INC-019,1,T063
+L0073,2026-10-13 10:40:17,cert-manager,WARN,baixo,manual_renewal_required cert=internal-api,INC-019,1,T063
+L0074,2026-10-13 10:40:25,cert-manager,INFO,baixo,cert=internal-api expires_in=12d,INC-019,1,T062
+L0075,2026-10-13 10:41:36,cert-manager,WARN,baixo,manual_renewal_required cert=internal-api,INC-019,1,T063
+L0076,2026-10-13 10:41:44,cert-manager,WARN,baixo,manual_renewal_required cert=internal-api,INC-019,1,T063
+L0077,2026-10-13 10:42:38,cert-manager,WARN,baixo,manual_renewal_required cert=internal-api,INC-019,1,T063
+L0078,2026-10-13 10:43:55,cert-manager,INFO,baixo,cert=internal-api expires_in=12d,INC-019,1,T062
+L0079,2026-10-13 10:44:02,cert-manager,WARN,baixo,manual_renewal_required cert=internal-api,INC-019,1,T063
+L0080,2026-10-13 10:44:41,cert-manager,WARN,baixo,manual_renewal_required cert=internal-api,INC-019,1,T063
+L0081,2026-10-13 10:44:50,cache-redis,INFO,ruido,Reconexão automática bem-sucedida,,0,T076
+L0082,2026-10-13 10:45:09,metrics-agent,INFO,ruido,Coleta de métricas concluída,,0,T070
+L0083,2026-10-13 10:46:06,search-service,INFO,ruido,Cache de consulta aquecido,,0,T079
+L0084,2026-10-13 10:46:12,cert-manager,INFO,baixo,renewal_window_open cert=internal-api,INC-019,1,T064
+L0085,2026-10-13 10:46:32,cert-manager,INFO,baixo,renewal_window_open cert=internal-api,INC-019,1,T064
+L0086,2026-10-13 10:48:21,cdn-edge,INFO,ruido,Purge de cache finalizado,,0,T081
+L0087,2026-10-13 10:48:37,cert-manager,INFO,baixo,renewal_window_open cert=internal-api,INC-019,1,T064
+L0088,2026-10-13 10:49:11,cache-redis,INFO,ruido,Reconexão automática bem-sucedida,,0,T076
+L0089,2026-10-13 10:50:00,cert-manager,WARN,baixo,manual_renewal_required cert=internal-api,INC-019,1,T063
+L0090,2026-10-13 10:51:36,notification-service,INFO,ruido,Template de e-mail recarregado,,0,T073
+L0091,2026-10-13 10:54:22,db-primary,INFO,ruido,Checkpoint concluído em 7171 ms,,0,T069
+L0092,2026-10-13 10:56:07,cdn-edge,INFO,ruido,Purge de cache finalizado,,0,T081
+L0093,2026-10-13 10:57:06,cdn-edge,INFO,baixo,cache_hit_ratio=12% (recuperando),INC-018,1,T061
+L0094,2026-10-13 10:57:08,cdn-edge,INFO,baixo,cache_hit_ratio=67% (recuperando),INC-018,1,T061
+L0095,2026-10-13 10:57:45,cdn-edge,INFO,baixo,purge issued paths=988,INC-018,1,T059
+L0096,2026-10-13 10:58:04,cdn-edge,INFO,baixo,purge issued paths=1987,INC-018,1,T059
+L0097,2026-10-13 10:59:24,db-primary,INFO,ruido,Checkpoint concluído em 3447 ms,,0,T069
+L0098,2026-10-13 10:59:30,db-primary,INFO,ruido,Checkpoint concluído em 2699 ms,,0,T069
+L0099,2026-10-13 10:59:34,cdn-edge,INFO,baixo,purge issued paths=2831,INC-018,1,T059
+L0100,2026-10-13 10:59:34,cert-manager,INFO,ruido,Verificação diária de certificados concluída,,0,T075
+L0101,2026-10-13 11:00:51,orders-worker,INFO,ruido,Mensagem reprocessada com sucesso,,0,T074
+L0102,2026-10-13 11:01:00,cdn-edge,INFO,baixo,cache_hit_ratio=90% target=85%,INC-018,1,T060
+L0103,2026-10-13 11:01:25,auth-service,INFO,ruido,Token renovado (rotina),,0,T068
+L0104,2026-10-13 11:02:36,cdn-edge,INFO,baixo,purge issued paths=3220,INC-018,1,T059
+L0105,2026-10-13 11:03:30,web-frontend,WARN,ruido,Aviso de depreciação de biblioteca,,0,T072
+L0106,2026-10-13 11:03:51,log-collector,INFO,ruido,Rotação de arquivo de log concluída,,0,T071
+L0107,2026-10-13 11:04:25,cdn-edge,INFO,baixo,purge issued paths=839,INC-018,1,T059
+L0108,2026-10-13 11:04:38,cdn-edge,INFO,baixo,purge issued paths=2149,INC-018,1,T059
+L0109,2026-10-13 11:04:55,cdn-edge,INFO,baixo,cache_hit_ratio=49% (recuperando),INC-018,1,T061
+L0110,2026-10-13 11:05:24,cdn-edge,INFO,baixo,purge issued paths=1725,INC-018,1,T059
+L0111,2026-10-13 11:05:33,cdn-edge,INFO,baixo,cache_hit_ratio=55% target=85%,INC-018,1,T060
+L0112,2026-10-13 11:06:01,cdn-edge,INFO,baixo,purge issued paths=3358,INC-018,1,T059
+L0113,2026-10-13 11:06:43,metrics-agent,INFO,ruido,Coleta de métricas concluída,,0,T070
+L0114,2026-10-13 11:07:42,notification-service,INFO,ruido,Template de e-mail recarregado,,0,T073
+L0115,2026-10-13 11:07:46,cdn-edge,INFO,baixo,cache_hit_ratio=18% (recuperando),INC-018,1,T061
+L0116,2026-10-13 11:08:09,cdn-edge,INFO,baixo,cache_hit_ratio=11% (recuperando),INC-018,1,T061
+L0117,2026-10-13 11:08:16,log-collector,INFO,ruido,Rotação de arquivo de log concluída,,0,T071
+L0118,2026-10-13 11:08:39,cdn-edge,INFO,baixo,purge issued paths=1816,INC-018,1,T059
+L0119,2026-10-13 11:09:14,cdn-edge,INFO,baixo,cache_hit_ratio=85% (recuperando),INC-018,1,T061
+L0120,2026-10-13 11:09:18,cdn-edge,INFO,baixo,purge issued paths=4587,INC-018,1,T059
+L0121,2026-10-13 11:09:19,log-collector,INFO,ruido,Rotação de arquivo de log concluída,,0,T071
+L0122,2026-10-13 11:09:36,cdn-edge,INFO,baixo,cache_hit_ratio=56% target=85%,INC-018,1,T060
+L0123,2026-10-13 11:10:00,cdn-edge,INFO,baixo,purge issued paths=3895,INC-018,1,T059
+L0124,2026-10-13 11:10:29,cdn-edge,INFO,baixo,purge issued paths=4195,INC-018,1,T059
+L0125,2026-10-13 11:12:24,cdn-edge,INFO,baixo,cache_hit_ratio=15% target=85%,INC-018,1,T060
+L0126,2026-10-13 11:12:49,db-primary,INFO,ruido,Checkpoint concluído em 6027 ms,,0,T069
+L0127,2026-10-13 11:13:07,cdn-edge,INFO,baixo,cache_hit_ratio=27% target=85%,INC-018,1,T060
+L0128,2026-10-13 11:13:48,cdn-edge,INFO,baixo,cache_hit_ratio=32% (recuperando),INC-018,1,T061
+L0129,2026-10-13 11:14:05,cdn-edge,INFO,baixo,cache_hit_ratio=61% target=85%,INC-018,1,T060
+L0130,2026-10-13 11:14:11,web-frontend,WARN,ruido,Aviso de depreciação de biblioteca,,0,T072
+L0131,2026-10-13 11:16:03,cdn-edge,INFO,baixo,purge issued paths=2933,INC-018,1,T059
+L0132,2026-10-13 11:16:10,cache-redis,INFO,ruido,Reconexão automática bem-sucedida,,0,T076
+L0133,2026-10-13 11:17:13,cdn-edge,INFO,ruido,Purge de cache finalizado,,0,T081
+L0134,2026-10-13 11:18:16,cert-manager,INFO,ruido,Verificação diária de certificados concluída,,0,T075
+L0135,2026-10-13 11:19:15,cdn-edge,INFO,baixo,purge issued paths=323,INC-018,1,T059
+L0136,2026-10-13 11:20:19,auth-service,INFO,ruido,Token renovado (rotina),,0,T068
+L0137,2026-10-13 11:20:51,cdn-edge,INFO,baixo,cache_hit_ratio=73% (recuperando),INC-018,1,T061
+L0138,2026-10-13 11:23:40,scheduler,INFO,ruido,Execução de rotina concluída sem alterações,,0,T078
+L0139,2026-10-13 11:25:07,orders-worker,INFO,ruido,Mensagem reprocessada com sucesso,,0,T074
+L0140,2026-10-13 11:27:56,inventory-service,INFO,ruido,Sincronização incremental concluída,,0,T080
+L0141,2026-10-13 11:28:06,db-primary,INFO,ruido,Checkpoint concluído em 4892 ms,,0,T069
+L0142,2026-10-13 11:28:09,backup-job,INFO,baixo,started target=db-primary,INC-017,1,T058
+L0143,2026-10-13 11:29:11,api-gateway,INFO,ruido,Health check respondeu em 7873 ms (limite 200 ms),,0,T077
+L0144,2026-10-13 11:29:32,backup-job,INFO,baixo,started target=db-primary,INC-017,1,T058
+L0145,2026-10-13 11:29:42,backup-job,INFO,baixo,started target=db-primary,INC-017,1,T058
+L0146,2026-10-13 11:29:43,scheduler,INFO,ruido,Execução de rotina concluída sem alterações,,0,T078
+L0147,2026-10-13 11:29:56,cache-redis,INFO,ruido,Reconexão automática bem-sucedida,,0,T076
+L0148,2026-10-13 11:30:20,backup-job,WARN,baixo,duration=95m expected=30m,INC-017,1,T056
+L0149,2026-10-13 11:30:22,backup-job,WARN,baixo,duration=82m expected=30m,INC-017,1,T056
+L0150,2026-10-13 11:31:21,backup-job,INFO,baixo,completed size=64GB checksum=ok,INC-017,1,T057
+L0151,2026-10-13 11:31:26,backup-job,INFO,baixo,started target=db-primary,INC-017,1,T058
+L0152,2026-10-13 11:31:26,backup-job,WARN,baixo,duration=94m expected=30m,INC-017,1,T056
+L0153,2026-10-13 11:31:32,backup-job,WARN,baixo,duration=60m expected=30m,INC-017,1,T056
+L0154,2026-10-13 11:32:11,auth-service,INFO,ruido,Token renovado (rotina),,0,T068
+L0155,2026-10-13 11:32:16,backup-job,WARN,baixo,duration=79m expected=30m,INC-017,1,T056
+L0156,2026-10-13 11:32:19,backup-job,INFO,baixo,started target=db-primary,INC-017,1,T058
+L0157,2026-10-13 11:32:19,backup-job,INFO,baixo,started target=db-primary,INC-017,1,T058
+L0158,2026-10-13 11:33:34,backup-job,WARN,baixo,duration=64m expected=30m,INC-017,1,T056
+L0159,2026-10-13 11:34:15,inventory-service,INFO,ruido,Sincronização incremental concluída,,0,T080
+L0160,2026-10-13 11:34:58,scheduler,INFO,ruido,Execução de rotina concluída sem alterações,,0,T078
+L0161,2026-10-13 11:35:04,backup-job,INFO,baixo,started target=db-primary,INC-017,1,T058
+L0162,2026-10-13 11:35:07,web-frontend,WARN,ruido,Aviso de depreciação de biblioteca,,0,T072
+L0163,2026-10-13 11:35:22,backup-job,INFO,baixo,started target=db-primary,INC-017,1,T058
+L0164,2026-10-13 11:35:48,db-primary,INFO,ruido,Checkpoint concluído em 8060 ms,,0,T069
+L0165,2026-10-13 11:36:48,notification-service,WARN,baixo,smtp_temporary_failure provider=mail-1,INC-016,1,T054
+L0166,2026-10-13 11:37:07,notification-service,INFO,baixo,retry batch=7 status=ok,INC-016,1,T055
+L0167,2026-10-13 11:37:21,notification-service,WARN,baixo,smtp_temporary_failure provider=mail-1,INC-016,1,T054
+L0168,2026-10-13 11:37:48,notification-service,INFO,baixo,delivered=2567,INC-016,1,T053
+L0169,2026-10-13 11:39:41,notification-service,INFO,baixo,delivered=883,INC-016,1,T053
+L0170,2026-10-13 11:40:05,backup-job,INFO,baixo,completed size=55GB checksum=ok,INC-017,1,T057
+L0171,2026-10-13 11:40:13,notification-service,INFO,baixo,delivered=1766,INC-016,1,T053
+L0172,2026-10-13 11:40:38,backup-job,INFO,baixo,completed size=66GB checksum=ok,INC-017,1,T057
+L0173,2026-10-13 11:40:46,backup-job,INFO,baixo,started target=db-primary,INC-017,1,T058
+L0174,2026-10-13 11:40:53,notification-service,INFO,baixo,retry batch=8 status=ok,INC-016,1,T055
+L0175,2026-10-13 11:41:58,notification-service,INFO,baixo,retry batch=11 status=ok,INC-016,1,T055
+L0176,2026-10-13 11:42:07,log-collector,INFO,ruido,Rotação de arquivo de log concluída,,0,T071
+L0177,2026-10-13 11:42:09,notification-service,WARN,baixo,smtp_temporary_failure provider=mail-1,INC-016,1,T054
+L0178,2026-10-13 11:44:03,notification-service,INFO,baixo,delivered=3580,INC-016,1,T053
+L0179,2026-10-13 11:44:10,backup-job,INFO,baixo,started target=db-primary,INC-017,1,T058
+L0180,2026-10-13 11:44:33,notification-service,INFO,baixo,delivered=4746,INC-016,1,T053
+L0181,2026-10-13 11:44:34,backup-job,INFO,baixo,started target=db-primary,INC-017,1,T058
+L0182,2026-10-13 11:44:36,backup-job,WARN,baixo,duration=68m expected=30m,INC-017,1,T056
+L0183,2026-10-13 11:44:49,notification-service,WARN,baixo,smtp_temporary_failure provider=mail-1,INC-016,1,T054
+L0184,2026-10-13 11:44:54,notification-service,INFO,baixo,delivered=4026,INC-016,1,T053
+L0185,2026-10-13 11:44:57,backup-job,INFO,baixo,completed size=80GB checksum=ok,INC-017,1,T057
+L0186,2026-10-13 11:44:58,api-gateway,INFO,ruido,Health check respondeu em 6290 ms (limite 200 ms),,0,T077
+L0187,2026-10-13 11:45:29,scheduler,INFO,ruido,Execução de rotina concluída sem alterações,,0,T078
+L0188,2026-10-13 11:45:45,notification-service,INFO,ruido,Template de e-mail recarregado,,0,T073
+L0189,2026-10-13 11:45:52,notification-service,INFO,baixo,delivered=2363,INC-016,1,T053
+L0190,2026-10-13 11:46:15,backup-job,INFO,baixo,started target=db-primary,INC-017,1,T058
+L0191,2026-10-13 11:47:36,notification-service,WARN,baixo,smtp_temporary_failure provider=mail-1,INC-016,1,T054
+L0192,2026-10-13 11:47:56,notification-service,WARN,baixo,smtp_temporary_failure provider=mail-1,INC-016,1,T054
+L0193,2026-10-13 11:48:03,notification-service,INFO,baixo,delivered=1304,INC-016,1,T053
+L0194,2026-10-13 11:48:18,search-service,INFO,ruido,Cache de consulta aquecido,,0,T079
+L0195,2026-10-13 11:48:29,backup-job,INFO,baixo,completed size=88GB checksum=ok,INC-017,1,T057
+L0196,2026-10-13 11:48:44,backup-job,INFO,baixo,completed size=95GB checksum=ok,INC-017,1,T057
+L0197,2026-10-13 11:49:17,backup-job,WARN,baixo,duration=95m expected=30m,INC-017,1,T056
+L0198,2026-10-13 11:50:41,backup-job,INFO,baixo,completed size=61GB checksum=ok,INC-017,1,T057
+L0199,2026-10-13 11:51:00,backup-job,WARN,baixo,duration=85m expected=30m,INC-017,1,T056
+L0200,2026-10-13 11:51:10,notification-service,INFO,baixo,retry batch=19 status=ok,INC-016,1,T055
+L0201,2026-10-13 11:51:59,notification-service,INFO,baixo,retry batch=8 status=ok,INC-016,1,T055
+L0202,2026-10-13 11:52:01,auth-service,INFO,ruido,Token renovado (rotina),,0,T068
+L0203,2026-10-13 11:53:03,notification-service,INFO,ruido,Template de e-mail recarregado,,0,T073
+L0204,2026-10-13 11:53:48,cert-manager,INFO,ruido,Verificação diária de certificados concluída,,0,T075
+L0205,2026-10-13 11:54:11,orders-worker,INFO,ruido,Mensagem reprocessada com sucesso,,0,T074
+L0206,2026-10-13 11:54:20,notification-service,INFO,baixo,retry batch=19 status=ok,INC-016,1,T055
+L0207,2026-10-13 11:54:29,notification-service,INFO,baixo,delivered=3935,INC-016,1,T053
+L0208,2026-10-13 11:54:56,notification-service,WARN,baixo,smtp_temporary_failure provider=mail-1,INC-016,1,T054
+L0209,2026-10-13 11:55:50,search-service,INFO,ruido,Cache de consulta aquecido,,0,T079
+L0210,2026-10-13 11:55:56,notification-service,INFO,baixo,delivered=1206,INC-016,1,T053
+L0211,2026-10-13 11:56:19,notification-service,WARN,baixo,smtp_temporary_failure provider=mail-1,INC-016,1,T054
+L0212,2026-10-13 11:56:36,notification-service,INFO,baixo,retry batch=7 status=ok,INC-016,1,T055
+L0213,2026-10-13 11:57:37,notification-service,INFO,baixo,retry batch=9 status=ok,INC-016,1,T055
+L0214,2026-10-13 11:58:07,notification-service,WARN,baixo,smtp_temporary_failure provider=mail-1,INC-016,1,T054
+L0215,2026-10-13 11:58:23,sso-provider,INFO,medio,upstream=ldap latency=4040ms,INC-015,1,T050
+L0216,2026-10-13 11:58:24,sso-provider,WARN,medio,token_endpoint timeouts=18,INC-015,1,T052
+L0217,2026-10-13 11:58:44,db-primary,INFO,ruido,Checkpoint concluído em 1329 ms,,0,T069
+L0218,2026-10-13 11:58:59,notification-service,INFO,baixo,delivered=1154,INC-016,1,T053
+L0219,2026-10-13 11:59:05,notification-service,INFO,baixo,retry batch=16 status=ok,INC-016,1,T055
+L0220,2026-10-13 11:59:22,api-gateway,INFO,ruido,Health check respondeu em 4144 ms (limite 200 ms),,0,T077
+L0221,2026-10-13 11:59:28,notification-service,INFO,ruido,Template de e-mail recarregado,,0,T073
+L0222,2026-10-13 12:00:03,sso-provider,WARN,medio,response_time=4865ms threshold=800ms,INC-015,1,T051
+L0223,2026-10-13 12:01:03,notification-service,INFO,baixo,delivered=3058,INC-016,1,T053
+L0224,2026-10-13 12:01:48,notification-service,INFO,baixo,delivered=5105,INC-016,1,T053
+L0225,2026-10-13 12:01:51,sso-provider,WARN,medio,token_endpoint timeouts=6,INC-015,1,T052
+L0226,2026-10-13 12:02:27,notification-service,WARN,baixo,smtp_temporary_failure provider=mail-1,INC-016,1,T054
+L0227,2026-10-13 12:06:31,scheduler,INFO,ruido,Execução de rotina concluída sem alterações,,0,T078
+L0228,2026-10-13 12:07:34,sso-provider,WARN,medio,response_time=9141ms threshold=800ms,INC-015,1,T051
+L0229,2026-10-13 12:07:49,sso-provider,INFO,medio,upstream=ldap latency=9507ms,INC-015,1,T050
+L0230,2026-10-13 12:08:30,sso-provider,INFO,medio,upstream=ldap latency=2602ms,INC-015,1,T050
+L0231,2026-10-13 12:08:37,sso-provider,WARN,medio,token_endpoint timeouts=11,INC-015,1,T052
+L0232,2026-10-13 12:09:22,api-gateway,INFO,ruido,Health check respondeu em 2178 ms (limite 200 ms),,0,T077
+L0233,2026-10-13 12:09:23,sso-provider,WARN,medio,token_endpoint timeouts=12,INC-015,1,T052
+L0234,2026-10-13 12:09:55,log-collector,INFO,ruido,Rotação de arquivo de log concluída,,0,T071
+L0235,2026-10-13 12:10:22,sso-provider,INFO,medio,upstream=ldap latency=3750ms,INC-015,1,T050
+L0236,2026-10-13 12:10:50,api-gateway,INFO,ruido,Health check respondeu em 1706 ms (limite 200 ms),,0,T077
+L0237,2026-10-13 12:11:52,sso-provider,INFO,medio,upstream=ldap latency=2821ms,INC-015,1,T050
+L0238,2026-10-13 12:12:21,web-frontend,WARN,ruido,Aviso de depreciação de biblioteca,,0,T072
+L0239,2026-10-13 12:12:53,sso-provider,INFO,medio,upstream=ldap latency=717ms,INC-015,1,T050
+L0240,2026-10-13 12:13:20,sso-provider,WARN,medio,response_time=901ms threshold=800ms,INC-015,1,T051
+L0241,2026-10-13 12:14:12,sso-provider,WARN,medio,response_time=9705ms threshold=800ms,INC-015,1,T051
+L0242,2026-10-13 12:14:25,cert-manager,INFO,ruido,Verificação diária de certificados concluída,,0,T075
+L0243,2026-10-13 12:15:01,log-collector,INFO,ruido,Rotação de arquivo de log concluída,,0,T071
+L0244,2026-10-13 12:15:19,sso-provider,INFO,medio,upstream=ldap latency=9504ms,INC-015,1,T050
+L0245,2026-10-13 12:15:36,sso-provider,WARN,medio,token_endpoint timeouts=11,INC-015,1,T052
+L0246,2026-10-13 12:17:10,sso-provider,INFO,medio,upstream=ldap latency=3735ms,INC-015,1,T050
+L0247,2026-10-13 12:17:27,sso-provider,WARN,medio,response_time=2061ms threshold=800ms,INC-015,1,T051
+L0248,2026-10-13 12:17:29,web-frontend,INFO,medio,session_affected=61,INC-014,1,T049
+L0249,2026-10-13 12:17:37,web-frontend,ERROR,medio,TypeError: Cannot read properties of undefined (reading 'items') page=/cart,INC-014,1,T047
+L0250,2026-10-13 12:17:43,sso-provider,WARN,medio,token_endpoint timeouts=3,INC-015,1,T052
+L0251,2026-10-13 12:18:03,sso-provider,WARN,medio,token_endpoint timeouts=15,INC-015,1,T052
+L0252,2026-10-13 12:18:04,sso-provider,WARN,medio,token_endpoint timeouts=5,INC-015,1,T052
+L0253,2026-10-13 12:18:36,cdn-edge,INFO,ruido,Purge de cache finalizado,,0,T081
+L0254,2026-10-13 12:18:37,notification-service,INFO,ruido,Template de e-mail recarregado,,0,T073
+L0255,2026-10-13 12:18:58,web-frontend,WARN,medio,js_error_rate=22% release=3.14.0,INC-014,1,T048
+L0256,2026-10-13 12:19:05,sso-provider,WARN,medio,response_time=362ms threshold=800ms,INC-015,1,T051
+L0257,2026-10-13 12:19:11,sso-provider,WARN,medio,response_time=7158ms threshold=800ms,INC-015,1,T051
+L0258,2026-10-13 12:19:13,log-collector,INFO,ruido,Rotação de arquivo de log concluída,,0,T071
+L0259,2026-10-13 12:19:15,sso-provider,INFO,medio,upstream=ldap latency=4632ms,INC-015,1,T050
+L0260,2026-10-13 12:19:20,sso-provider,WARN,medio,token_endpoint timeouts=7,INC-015,1,T052
+L0261,2026-10-13 12:19:37,sso-provider,WARN,medio,token_endpoint timeouts=10,INC-015,1,T052
+L0262,2026-10-13 12:19:52,sso-provider,INFO,medio,upstream=ldap latency=6321ms,INC-015,1,T050
+L0263,2026-10-13 12:20:11,web-frontend,INFO,medio,session_affected=339,INC-014,1,T049
+L0264,2026-10-13 12:20:19,inventory-service,INFO,ruido,Sincronização incremental concluída,,0,T080
+L0265,2026-10-13 12:20:35,notification-service,INFO,ruido,Template de e-mail recarregado,,0,T073
+L0266,2026-10-13 12:21:06,log-collector,INFO,ruido,Rotação de arquivo de log concluída,,0,T071
+L0267,2026-10-13 12:21:09,web-frontend,INFO,medio,session_affected=253,INC-014,1,T049
+L0268,2026-10-13 12:21:32,log-collector,WARN,medio,ingest_lag=16m shards_delayed=2,INC-013,1,T044
+L0269,2026-10-13 12:21:44,web-frontend,WARN,ruido,Aviso de depreciação de biblioteca,,0,T072
+L0270,2026-10-13 12:21:50,search-service,INFO,ruido,Cache de consulta aquecido,,0,T079
+L0271,2026-10-13 12:22:09,web-frontend,WARN,medio,js_error_rate=79% release=3.14.0,INC-014,1,T048
+L0272,2026-10-13 12:22:09,web-frontend,WARN,medio,js_error_rate=82% release=3.14.0,INC-014,1,T048
+L0273,2026-10-13 12:22:35,web-frontend,WARN,medio,js_error_rate=5% release=3.14.0,INC-014,1,T048
+L0274,2026-10-13 12:22:37,web-frontend,INFO,medio,session_affected=81,INC-014,1,T049
+L0275,2026-10-13 12:22:55,web-frontend,WARN,medio,js_error_rate=96% release=3.14.0,INC-014,1,T048
+L0276,2026-10-13 12:22:55,sso-provider,INFO,medio,upstream=ldap latency=2269ms,INC-015,1,T050
+L0277,2026-10-13 12:23:36,log-collector,WARN,medio,backlog=11m,INC-013,1,T045
+L0278,2026-10-13 12:23:41,log-collector,WARN,medio,ingest_lag=7m shards_delayed=2,INC-013,1,T044
+L0279,2026-10-13 12:23:41,sso-provider,WARN,medio,response_time=2229ms threshold=800ms,INC-015,1,T051
+L0280,2026-10-13 12:23:43,sso-provider,WARN,medio,response_time=5589ms threshold=800ms,INC-015,1,T051
+L0281,2026-10-13 12:23:54,log-collector,WARN,medio,backlog=17m,INC-013,1,T045
+L0282,2026-10-13 12:24:15,log-collector,WARN,medio,ingest_lag=16m shards_delayed=2,INC-013,1,T044
+L0283,2026-10-13 12:24:17,log-collector,WARN,medio,backlog=13m,INC-013,1,T045
+L0284,2026-10-13 12:24:19,log-collector,WARN,medio,backlog=9m,INC-013,1,T045
+L0285,2026-10-13 12:24:24,orders-worker,INFO,ruido,Mensagem reprocessada com sucesso,,0,T074
+L0286,2026-10-13 12:24:30,sso-provider,WARN,medio,response_time=1142ms threshold=800ms,INC-015,1,T051
+L0287,2026-10-13 12:24:36,db-primary,INFO,ruido,Checkpoint concluído em 1457 ms,,0,T069
+L0288,2026-10-13 12:24:38,sso-provider,WARN,medio,token_endpoint timeouts=16,INC-015,1,T052
+L0289,2026-10-13 12:24:48,api-gateway,INFO,ruido,Health check respondeu em 1119 ms (limite 200 ms),,0,T077
+L0290,2026-10-13 12:24:59,web-frontend,ERROR,medio,TypeError: Cannot read properties of undefined (reading 'items') page=/cart,INC-014,1,T047
+L0291,2026-10-13 12:25:13,sso-provider,WARN,medio,token_endpoint timeouts=13,INC-015,1,T052
+L0292,2026-10-13 12:25:22,log-collector,INFO,medio,flush batch=1226,INC-013,1,T046
+L0293,2026-10-13 12:25:27,web-frontend,ERROR,medio,TypeError: Cannot read properties of undefined (reading 'items') page=/cart,INC-014,1,T047
+L0294,2026-10-13 12:25:27,orders-worker,INFO,ruido,Mensagem reprocessada com sucesso,,0,T074
+L0295,2026-10-13 12:25:41,web-frontend,INFO,medio,session_affected=118,INC-014,1,T049
+L0296,2026-10-13 12:25:53,sso-provider,WARN,medio,token_endpoint timeouts=13,INC-015,1,T052
+L0297,2026-10-13 12:26:25,cdn-edge,INFO,ruido,Purge de cache finalizado,,0,T081
+L0298,2026-10-13 12:26:55,log-collector,WARN,medio,ingest_lag=11m shards_delayed=2,INC-013,1,T044
+L0299,2026-10-13 12:26:57,web-frontend,WARN,medio,js_error_rate=86% release=3.14.0,INC-014,1,T048
+L0300,2026-10-13 12:27:07,log-collector,INFO,medio,flush batch=2905,INC-013,1,T046
+L0301,2026-10-13 12:27:15,web-frontend,INFO,medio,session_affected=387,INC-014,1,T049
+L0302,2026-10-13 12:27:43,auth-service,INFO,ruido,Token renovado (rotina),,0,T068
+L0303,2026-10-13 12:27:53,log-collector,WARN,medio,ingest_lag=18m shards_delayed=2,INC-013,1,T044
+L0304,2026-10-13 12:29:05,log-collector,WARN,medio,ingest_lag=12m shards_delayed=2,INC-013,1,T044
+L0305,2026-10-13 12:29:30,log-collector,WARN,medio,backlog=17m,INC-013,1,T045
+L0306,2026-10-13 12:29:37,log-collector,WARN,medio,ingest_lag=3m shards_delayed=2,INC-013,1,T044
+L0307,2026-10-13 12:29:42,web-frontend,INFO,medio,session_affected=138,INC-014,1,T049
+L0308,2026-10-13 12:30:09,orders-worker,INFO,ruido,Mensagem reprocessada com sucesso,,0,T074
+L0309,2026-10-13 12:30:32,web-frontend,INFO,medio,session_affected=174,INC-014,1,T049
+L0310,2026-10-13 12:30:40,web-frontend,WARN,medio,js_error_rate=13% release=3.14.0,INC-014,1,T048
+L0311,2026-10-13 12:30:52,web-frontend,ERROR,medio,TypeError: Cannot read properties of undefined (reading 'items') page=/cart,INC-014,1,T047
+L0312,2026-10-13 12:31:04,notification-service,INFO,ruido,Template de e-mail recarregado,,0,T073
+L0313,2026-10-13 12:31:16,auth-service,INFO,ruido,Token renovado (rotina),,0,T068
+L0314,2026-10-13 12:31:21,web-frontend,WARN,ruido,Aviso de depreciação de biblioteca,,0,T072
+L0315,2026-10-13 12:31:26,web-frontend,ERROR,medio,TypeError: Cannot read properties of undefined (reading 'items') page=/cart,INC-014,1,T047
+L0316,2026-10-13 12:31:38,web-frontend,ERROR,medio,TypeError: Cannot read properties of undefined (reading 'items') page=/cart,INC-014,1,T047
+L0317,2026-10-13 12:32:12,web-frontend,WARN,medio,js_error_rate=60% release=3.14.0,INC-014,1,T048
+L0318,2026-10-13 12:32:50,web-frontend,INFO,medio,session_affected=180,INC-014,1,T049
+L0319,2026-10-13 12:33:48,log-collector,WARN,medio,ingest_lag=5m shards_delayed=2,INC-013,1,T044
+L0320,2026-10-13 12:33:56,web-frontend,INFO,medio,session_affected=415,INC-014,1,T049
+L0321,2026-10-13 12:34:16,log-collector,WARN,medio,backlog=8m,INC-013,1,T045
+L0322,2026-10-13 12:34:26,web-frontend,INFO,medio,session_affected=206,INC-014,1,T049
+L0323,2026-10-13 12:34:40,inventory-service,INFO,ruido,Sincronização incremental concluída,,0,T080
+L0324,2026-10-13 12:35:02,web-frontend,WARN,ruido,Aviso de depreciação de biblioteca,,0,T072
+L0325,2026-10-13 12:35:08,log-collector,INFO,medio,flush batch=544,INC-013,1,T046
+L0326,2026-10-13 12:35:39,log-collector,WARN,medio,ingest_lag=8m shards_delayed=2,INC-013,1,T044
+L0327,2026-10-13 12:35:45,log-collector,WARN,medio,ingest_lag=10m shards_delayed=2,INC-013,1,T044
+L0328,2026-10-13 12:35:59,log-collector,WARN,medio,ingest_lag=16m shards_delayed=2,INC-013,1,T044
+L0329,2026-10-13 12:36:03,log-collector,WARN,medio,backlog=2m,INC-013,1,T045
+L0330,2026-10-13 12:36:04,log-collector,WARN,medio,backlog=16m,INC-013,1,T045
+L0331,2026-10-13 12:36:30,cache-redis,INFO,ruido,Reconexão automática bem-sucedida,,0,T076
+L0332,2026-10-13 12:37:05,web-frontend,ERROR,medio,TypeError: Cannot read properties of undefined (reading 'items') page=/cart,INC-014,1,T047
+L0333,2026-10-13 12:37:16,web-frontend,ERROR,medio,TypeError: Cannot read properties of undefined (reading 'items') page=/cart,INC-014,1,T047
+L0334,2026-10-13 12:37:17,log-collector,WARN,medio,backlog=7m,INC-013,1,T045
+L0335,2026-10-13 12:37:31,web-frontend,INFO,medio,session_affected=410,INC-014,1,T049
+L0336,2026-10-13 12:37:44,log-collector,INFO,medio,flush batch=3362,INC-013,1,T046
+L0337,2026-10-13 12:37:47,log-collector,INFO,medio,flush batch=3673,INC-013,1,T046
+L0338,2026-10-13 12:37:51,log-collector,INFO,ruido,Rotação de arquivo de log concluída,,0,T071
+L0339,2026-10-13 12:38:23,web-frontend,ERROR,medio,TypeError: Cannot read properties of undefined (reading 'items') page=/cart,INC-014,1,T047
+L0340,2026-10-13 12:38:25,scheduler,WARN,medio,job=reconcile-ledger start_delay=6926s,INC-012,1,T042
+L0341,2026-10-13 12:38:25,scheduler,WARN,medio,job=daily-report start_delay=6184s,INC-012,1,T043
+L0342,2026-10-13 12:38:28,web-frontend,INFO,medio,session_affected=76,INC-014,1,T049
+L0343,2026-10-13 12:38:35,log-collector,WARN,medio,backlog=12m,INC-013,1,T045
+L0344,2026-10-13 12:38:50,web-frontend,ERROR,medio,TypeError: Cannot read properties of undefined (reading 'items') page=/cart,INC-014,1,T047
+L0345,2026-10-13 12:39:01,scheduler,WARN,medio,job=reconcile-ledger start_delay=7062s,INC-012,1,T042
+L0346,2026-10-13 12:39:10,log-collector,WARN,medio,backlog=11m,INC-013,1,T045
+L0347,2026-10-13 12:39:15,scheduler,INFO,medio,queue=145 workers=4,INC-012,1,T041
+L0348,2026-10-13 12:39:33,scheduler,WARN,medio,job=reconcile-ledger start_delay=4257s,INC-012,1,T042
+L0349,2026-10-13 12:39:35,log-collector,WARN,medio,backlog=4m,INC-013,1,T045
+L0350,2026-10-13 12:39:48,web-frontend,ERROR,medio,TypeError: Cannot read properties of undefined (reading 'items') page=/cart,INC-014,1,T047
+L0351,2026-10-13 12:40:18,scheduler,INFO,ruido,Execução de rotina concluída sem alterações,,0,T078
+L0352,2026-10-13 12:40:23,scheduler,WARN,medio,job=reconcile-ledger start_delay=5457s,INC-012,1,T042
+L0353,2026-10-13 12:40:32,scheduler,INFO,medio,queue=63 workers=4,INC-012,1,T041
+L0354,2026-10-13 12:40:37,web-frontend,ERROR,medio,TypeError: Cannot read properties of undefined (reading 'items') page=/cart,INC-014,1,T047
+L0355,2026-10-13 12:41:26,scheduler,INFO,medio,queue=199 workers=4,INC-012,1,T041
+L0356,2026-10-13 12:42:13,scheduler,WARN,medio,job=daily-report start_delay=2299s,INC-012,1,T043
+L0357,2026-10-13 12:43:03,orders-worker,INFO,ruido,Mensagem reprocessada com sucesso,,0,T074
+L0358,2026-10-13 12:44:27,notification-service,INFO,ruido,Template de e-mail recarregado,,0,T073
+L0359,2026-10-13 12:44:47,web-frontend,ERROR,medio,TypeError: Cannot read properties of undefined (reading 'items') page=/cart,INC-014,1,T047
+L0360,2026-10-13 12:44:54,web-frontend,ERROR,medio,TypeError: Cannot read properties of undefined (reading 'items') page=/cart,INC-014,1,T047
+L0361,2026-10-13 12:44:56,log-collector,WARN,medio,ingest_lag=13m shards_delayed=2,INC-013,1,T044
+L0362,2026-10-13 12:45:00,scheduler,WARN,medio,job=reconcile-ledger start_delay=8115s,INC-012,1,T042
+L0363,2026-10-13 12:45:20,scheduler,INFO,medio,queue=38 workers=4,INC-012,1,T041
+L0364,2026-10-13 12:45:35,web-frontend,INFO,medio,session_affected=250,INC-014,1,T049
+L0365,2026-10-13 12:45:59,web-frontend,ERROR,medio,TypeError: Cannot read properties of undefined (reading 'items') page=/cart,INC-014,1,T047
+L0366,2026-10-13 12:46:20,auth-service,INFO,ruido,Token renovado (rotina),,0,T068
+L0367,2026-10-13 12:46:38,scheduler,WARN,medio,job=reconcile-ledger start_delay=3122s,INC-012,1,T042
+L0368,2026-10-13 12:46:40,web-frontend,INFO,medio,session_affected=276,INC-014,1,T049
+L0369,2026-10-13 12:46:45,log-collector,WARN,medio,ingest_lag=15m shards_delayed=2,INC-013,1,T044
+L0370,2026-10-13 12:46:57,notification-service,INFO,ruido,Template de e-mail recarregado,,0,T073
+L0371,2026-10-13 12:47:10,web-frontend,INFO,medio,session_affected=296,INC-014,1,T049
+L0372,2026-10-13 12:47:48,log-collector,WARN,medio,ingest_lag=8m shards_delayed=2,INC-013,1,T044
+L0373,2026-10-13 12:48:19,scheduler,WARN,medio,job=daily-report start_delay=752s,INC-012,1,T043
+L0374,2026-10-13 12:48:25,scheduler,INFO,medio,queue=413 workers=4,INC-012,1,T041
+L0375,2026-10-13 12:48:30,scheduler,WARN,medio,job=daily-report start_delay=1762s,INC-012,1,T043
+L0376,2026-10-13 12:48:50,web-frontend,WARN,medio,js_error_rate=11% release=3.14.0,INC-014,1,T048
+L0377,2026-10-13 12:49:12,log-collector,WARN,medio,ingest_lag=18m shards_delayed=2,INC-013,1,T044
+L0378,2026-10-13 12:49:21,api-gateway,INFO,ruido,Health check respondeu em 1958 ms (limite 200 ms),,0,T077
+L0379,2026-10-13 12:49:55,scheduler,INFO,medio,queue=351 workers=4,INC-012,1,T041
+L0380,2026-10-13 12:49:57,scheduler,WARN,medio,job=daily-report start_delay=1391s,INC-012,1,T043
+L0381,2026-10-13 12:50:36,log-collector,WARN,medio,backlog=12m,INC-013,1,T045
+L0382,2026-10-13 12:50:59,log-collector,WARN,medio,ingest_lag=15m shards_delayed=2,INC-013,1,T044
+L0383,2026-10-13 12:53:21,scheduler,INFO,medio,queue=187 workers=4,INC-012,1,T041
+L0384,2026-10-13 12:54:06,scheduler,WARN,medio,job=daily-report start_delay=7758s,INC-012,1,T043
+L0385,2026-10-13 12:54:49,scheduler,WARN,medio,job=daily-report start_delay=5022s,INC-012,1,T043
+L0386,2026-10-13 12:55:13,scheduler,WARN,medio,job=reconcile-ledger start_delay=3141s,INC-012,1,T042
+L0387,2026-10-13 12:55:45,k8s-node-07,WARN,medio,disk_usage=68% mount=/var/lib/docker,INC-011,1,T040
+L0388,2026-10-13 12:56:54,scheduler,WARN,medio,job=reconcile-ledger start_delay=9124s,INC-012,1,T042
+L0389,2026-10-13 12:56:58,k8s-node-07,INFO,medio,largest_dir=/var/log/containers size=66GB,INC-011,1,T039
+L0390,2026-10-13 12:58:00,cache-redis,WARN,medio,used_memory=44% evicted_keys=1197,INC-010,1,T035
+L0391,2026-10-13 12:58:22,k8s-node-07,WARN,medio,disk_usage=74% mount=/var/lib/docker,INC-011,1,T040
+L0392,2026-10-13 12:58:52,k8s-node-07,WARN,medio,disk_usage=92% mount=/var/lib/docker,INC-011,1,T040
+L0393,2026-10-13 12:59:24,scheduler,WARN,medio,job=daily-report start_delay=9732s,INC-012,1,T043
+L0394,2026-10-13 12:59:37,k8s-node-07,INFO,medio,largest_dir=/var/log/containers size=84GB,INC-011,1,T039
+L0395,2026-10-13 12:59:44,scheduler,INFO,medio,queue=155 workers=4,INC-012,1,T041
+L0396,2026-10-13 12:59:49,k8s-node-07,INFO,medio,largest_dir=/var/log/containers size=70GB,INC-011,1,T039
+L0397,2026-10-13 12:59:52,cache-redis,WARN,medio,maxmemory-policy=allkeys-lru active,INC-010,1,T037
+L0398,2026-10-13 12:59:57,k8s-node-07,WARN,medio,disk_usage=33% mount=/var/lib/docker,INC-011,1,T040
+L0399,2026-10-13 13:00:06,web-frontend,WARN,ruido,Aviso de depreciação de biblioteca,,0,T072
+L0400,2026-10-13 13:00:22,scheduler,WARN,medio,job=reconcile-ledger start_delay=2652s,INC-012,1,T042
+L0401,2026-10-13 13:00:36,scheduler,WARN,medio,job=daily-report start_delay=6866s,INC-012,1,T043
+L0402,2026-10-13 13:01:22,cache-redis,INFO,medio,hit_ratio=23% (anterior 91%),INC-010,1,T036
+L0403,2026-10-13 13:01:23,scheduler,INFO,medio,queue=237 workers=4,INC-012,1,T041
+L0404,2026-10-13 13:01:32,cache-redis,INFO,medio,hit_ratio=58% (anterior 91%),INC-010,1,T036
+L0405,2026-10-13 13:02:16,scheduler,INFO,medio,queue=443 workers=4,INC-012,1,T041
+L0406,2026-10-13 13:02:49,cache-redis,WARN,medio,used_memory=97% evicted_keys=4089,INC-010,1,T035
+L0407,2026-10-13 13:03:08,cache-redis,WARN,medio,maxmemory-policy=allkeys-lru active,INC-010,1,T037
+L0408,2026-10-13 13:03:29,cache-redis,WARN,medio,used_memory=62% evicted_keys=4069,INC-010,1,T035
+L0409,2026-10-13 13:03:31,scheduler,WARN,medio,job=daily-report start_delay=7786s,INC-012,1,T043
+L0410,2026-10-13 13:03:51,cache-redis,WARN,medio,used_memory=18% evicted_keys=3003,INC-010,1,T035
+L0411,2026-10-13 13:03:59,inventory-service,INFO,ruido,Sincronização incremental concluída,,0,T080
+L0412,2026-10-13 13:04:00,scheduler,WARN,medio,job=daily-report start_delay=2360s,INC-012,1,T043
+L0413,2026-10-13 13:04:26,cache-redis,WARN,medio,used_memory=87% evicted_keys=1275,INC-010,1,T035
+L0414,2026-10-13 13:04:42,k8s-node-07,WARN,medio,image_gc threshold=85% approaching,INC-011,1,T038
+L0415,2026-10-13 13:04:55,k8s-node-07,INFO,medio,largest_dir=/var/log/containers size=65GB,INC-011,1,T039
+L0416,2026-10-13 13:05:02,scheduler,WARN,medio,job=daily-report start_delay=7338s,INC-012,1,T043
+L0417,2026-10-13 13:05:52,k8s-node-07,WARN,medio,image_gc threshold=85% approaching,INC-011,1,T038
+L0418,2026-10-13 13:06:10,cache-redis,INFO,medio,hit_ratio=87% (anterior 91%),INC-010,1,T036
+L0419,2026-10-13 13:06:24,k8s-node-07,WARN,medio,image_gc threshold=85% approaching,INC-011,1,T038
+L0420,2026-10-13 13:06:36,k8s-node-07,WARN,medio,disk_usage=29% mount=/var/lib/docker,INC-011,1,T040
+L0421,2026-10-13 13:06:38,k8s-node-07,INFO,medio,largest_dir=/var/log/containers size=63GB,INC-011,1,T039
+L0422,2026-10-13 13:06:45,scheduler,WARN,medio,job=reconcile-ledger start_delay=8370s,INC-012,1,T042
+L0423,2026-10-13 13:06:54,scheduler,INFO,medio,queue=83 workers=4,INC-012,1,T041
+L0424,2026-10-13 13:07:39,scheduler,INFO,medio,queue=276 workers=4,INC-012,1,T041
+L0425,2026-10-13 13:08:24,cache-redis,WARN,medio,maxmemory-policy=allkeys-lru active,INC-010,1,T037
+L0426,2026-10-13 13:08:32,auth-service,INFO,ruido,Token renovado (rotina),,0,T068
+L0427,2026-10-13 13:08:36,cache-redis,WARN,medio,used_memory=65% evicted_keys=2069,INC-010,1,T035
+L0428,2026-10-13 13:08:46,cache-redis,WARN,medio,maxmemory-policy=allkeys-lru active,INC-010,1,T037
+L0429,2026-10-13 13:08:53,k8s-node-07,WARN,medio,disk_usage=56% mount=/var/lib/docker,INC-011,1,T040
+L0430,2026-10-13 13:09:00,cache-redis,WARN,medio,used_memory=65% evicted_keys=4228,INC-010,1,T035
+L0431,2026-10-13 13:09:55,cache-redis,WARN,medio,maxmemory-policy=allkeys-lru active,INC-010,1,T037
+L0432,2026-10-13 13:09:58,orders-worker,INFO,ruido,Mensagem reprocessada com sucesso,,0,T074
+L0433,2026-10-13 13:10:02,cache-redis,WARN,medio,maxmemory-policy=allkeys-lru active,INC-010,1,T037
+L0434,2026-10-13 13:10:27,k8s-node-07,WARN,medio,image_gc threshold=85% approaching,INC-011,1,T038
+L0435,2026-10-13 13:10:47,api-gateway,INFO,ruido,Health check respondeu em 3481 ms (limite 200 ms),,0,T077
+L0436,2026-10-13 13:10:48,k8s-node-07,WARN,medio,image_gc threshold=85% approaching,INC-011,1,T038
+L0437,2026-10-13 13:11:37,db-primary,INFO,ruido,Checkpoint concluído em 3095 ms,,0,T069
+L0438,2026-10-13 13:11:52,cache-redis,INFO,medio,hit_ratio=42% (anterior 91%),INC-010,1,T036
+L0439,2026-10-13 13:12:05,log-collector,INFO,ruido,Rotação de arquivo de log concluída,,0,T071
+L0440,2026-10-13 13:12:19,scheduler,INFO,ruido,Execução de rotina concluída sem alterações,,0,T078
+L0441,2026-10-13 13:12:24,k8s-node-07,WARN,medio,image_gc threshold=85% approaching,INC-011,1,T038
+L0442,2026-10-13 13:12:33,notification-service,INFO,ruido,Template de e-mail recarregado,,0,T073
+L0443,2026-10-13 13:12:34,cache-redis,WARN,medio,used_memory=52% evicted_keys=2151,INC-010,1,T035
+L0444,2026-10-13 13:12:53,k8s-node-07,INFO,medio,largest_dir=/var/log/containers size=64GB,INC-011,1,T039
+L0445,2026-10-13 13:12:55,metrics-agent,INFO,ruido,Coleta de métricas concluída,,0,T070
+L0446,2026-10-13 13:13:05,k8s-node-07,WARN,medio,image_gc threshold=85% approaching,INC-011,1,T038
+L0447,2026-10-13 13:13:19,billing-worker,WARN,alto,retry scheduled in=15m attempt=14/5,INC-009,1,T033
+L0448,2026-10-13 13:13:27,cache-redis,WARN,medio,maxmemory-policy=allkeys-lru active,INC-010,1,T037
+L0449,2026-10-13 13:13:39,k8s-node-07,INFO,medio,largest_dir=/var/log/containers size=72GB,INC-011,1,T039
+L0450,2026-10-13 13:13:44,billing-worker,ERROR,alto,charge_failed batch=B-93348 reason=gateway_timeout,INC-009,1,T032
+L0451,2026-10-13 13:14:05,billing-worker,ERROR,alto,charge_failed batch=B-65560 reason=gateway_timeout,INC-009,1,T032
+L0452,2026-10-13 13:14:40,billing-worker,INFO,alto,"failed_batches=17 total_value_pending=R$ 239,00",INC-009,1,T034
+L0453,2026-10-13 13:15:02,billing-worker,ERROR,alto,charge_failed batch=B-81705 reason=gateway_timeout,INC-009,1,T032
+L0454,2026-10-13 13:15:08,billing-worker,ERROR,alto,charge_failed batch=B-64882 reason=gateway_timeout,INC-009,1,T032
+L0455,2026-10-13 13:15:19,billing-worker,WARN,alto,retry scheduled in=15m attempt=11/5,INC-009,1,T033
+L0456,2026-10-13 13:15:23,cache-redis,INFO,ruido,Reconexão automática bem-sucedida,,0,T076
+L0457,2026-10-13 13:15:33,cache-redis,INFO,medio,hit_ratio=71% (anterior 91%),INC-010,1,T036
+L0458,2026-10-13 13:15:54,cache-redis,WARN,medio,maxmemory-policy=allkeys-lru active,INC-010,1,T037
+L0459,2026-10-13 13:16:15,k8s-node-07,WARN,medio,image_gc threshold=85% approaching,INC-011,1,T038
+L0460,2026-10-13 13:16:21,billing-worker,WARN,alto,retry scheduled in=15m attempt=10/5,INC-009,1,T033
+L0461,2026-10-13 13:16:33,k8s-node-07,WARN,medio,disk_usage=47% mount=/var/lib/docker,INC-011,1,T040
+L0462,2026-10-13 13:16:38,cache-redis,WARN,medio,maxmemory-policy=allkeys-lru active,INC-010,1,T037
+L0463,2026-10-13 13:16:50,cache-redis,INFO,medio,hit_ratio=18% (anterior 91%),INC-010,1,T036
+L0464,2026-10-13 13:17:26,cache-redis,WARN,medio,used_memory=13% evicted_keys=3816,INC-010,1,T035
+L0465,2026-10-13 13:17:32,cache-redis,WARN,medio,maxmemory-policy=allkeys-lru active,INC-010,1,T037
+L0466,2026-10-13 13:17:45,k8s-node-07,WARN,medio,disk_usage=29% mount=/var/lib/docker,INC-011,1,T040
+L0467,2026-10-13 13:17:56,cache-redis,INFO,medio,hit_ratio=75% (anterior 91%),INC-010,1,T036
+L0468,2026-10-13 13:18:17,billing-worker,WARN,alto,retry scheduled in=15m attempt=13/5,INC-009,1,T033
+L0469,2026-10-13 13:18:47,cache-redis,INFO,medio,hit_ratio=17% (anterior 91%),INC-010,1,T036
+L0470,2026-10-13 13:18:48,k8s-node-07,WARN,medio,disk_usage=79% mount=/var/lib/docker,INC-011,1,T040
+L0471,2026-10-13 13:18:49,billing-worker,WARN,alto,retry scheduled in=15m attempt=12/5,INC-009,1,T033
+L0472,2026-10-13 13:18:59,db-primary,INFO,ruido,Checkpoint concluído em 5927 ms,,0,T069
+L0473,2026-10-13 13:19:08,k8s-node-07,WARN,medio,image_gc threshold=85% approaching,INC-011,1,T038
+L0474,2026-10-13 13:19:18,notification-service,INFO,ruido,Template de e-mail recarregado,,0,T073
+L0475,2026-10-13 13:19:24,k8s-node-07,WARN,medio,disk_usage=48% mount=/var/lib/docker,INC-011,1,T040
+L0476,2026-10-13 13:19:28,cache-redis,WARN,medio,used_memory=44% evicted_keys=2772,INC-010,1,T035
+L0477,2026-10-13 13:19:28,k8s-node-07,WARN,medio,disk_usage=49% mount=/var/lib/docker,INC-011,1,T040
+L0478,2026-10-13 13:19:28,k8s-node-07,WARN,medio,disk_usage=15% mount=/var/lib/docker,INC-011,1,T040
+L0479,2026-10-13 13:19:40,billing-worker,WARN,alto,retry scheduled in=15m attempt=15/5,INC-009,1,T033
+L0480,2026-10-13 13:19:54,billing-worker,ERROR,alto,charge_failed batch=B-81539 reason=gateway_timeout,INC-009,1,T032
+L0481,2026-10-13 13:20:04,cache-redis,WARN,medio,maxmemory-policy=allkeys-lru active,INC-010,1,T037
+L0482,2026-10-13 13:20:13,k8s-node-07,INFO,medio,largest_dir=/var/log/containers size=58GB,INC-011,1,T039
+L0483,2026-10-13 13:20:18,billing-worker,ERROR,alto,charge_failed batch=B-55072 reason=gateway_timeout,INC-009,1,T032
+L0484,2026-10-13 13:20:40,k8s-node-07,WARN,medio,image_gc threshold=85% approaching,INC-011,1,T038
+L0485,2026-10-13 13:20:49,cache-redis,INFO,medio,hit_ratio=6% (anterior 91%),INC-010,1,T036
+L0486,2026-10-13 13:20:52,k8s-node-07,INFO,medio,largest_dir=/var/log/containers size=66GB,INC-011,1,T039
+L0487,2026-10-13 13:20:54,billing-worker,WARN,alto,retry scheduled in=15m attempt=17/5,INC-009,1,T033
+L0488,2026-10-13 13:21:01,cert-manager,INFO,ruido,Verificação diária de certificados concluída,,0,T075
+L0489,2026-10-13 13:21:10,search-service,WARN,alto,query_queue=74 timeouts=8,INC-008,1,T031
+L0490,2026-10-13 13:21:17,cache-redis,WARN,medio,used_memory=80% evicted_keys=4591,INC-010,1,T035
+L0491,2026-10-13 13:21:18,cache-redis,INFO,medio,hit_ratio=95% (anterior 91%),INC-010,1,T036
+L0492,2026-10-13 13:21:35,cache-redis,INFO,medio,hit_ratio=91% (anterior 91%),INC-010,1,T036
+L0493,2026-10-13 13:21:58,search-service,WARN,alto,query_queue=124 timeouts=11,INC-008,1,T031
+L0494,2026-10-13 13:21:59,billing-worker,INFO,alto,"failed_batches=9 total_value_pending=R$ 5147,00",INC-009,1,T034
+L0495,2026-10-13 13:22:06,metrics-agent,INFO,ruido,Coleta de métricas concluída,,0,T070
+L0496,2026-10-13 13:22:13,k8s-node-07,INFO,medio,largest_dir=/var/log/containers size=55GB,INC-011,1,T039
+L0497,2026-10-13 13:22:20,cache-redis,INFO,medio,hit_ratio=85% (anterior 91%),INC-010,1,T036
+L0498,2026-10-13 13:22:25,search-service,INFO,alto,reindex shard=7/6 cpu=86%,INC-008,1,T029
+L0499,2026-10-13 13:22:31,search-service,INFO,alto,reindex shard=6/6 cpu=89%,INC-008,1,T029
+L0500,2026-10-13 13:22:57,search-service,WARN,alto,p95_latency=8380ms threshold=400ms,INC-008,1,T030
+L0501,2026-10-13 13:22:58,api-gateway,INFO,ruido,Health check respondeu em 4961 ms (limite 200 ms),,0,T077
+L0502,2026-10-13 13:23:03,k8s-node-07,INFO,medio,largest_dir=/var/log/containers size=65GB,INC-011,1,T039
+L0503,2026-10-13 13:23:36,auth-service,WARN,alto,login_failed rate=54% idp=timeout,INC-006,1,T023
+L0504,2026-10-13 13:23:46,k8s-node-07,WARN,medio,disk_usage=59% mount=/var/lib/docker,INC-011,1,T040
+L0505,2026-10-13 13:23:50,search-service,WARN,alto,query_queue=203 timeouts=9,INC-008,1,T031
+L0506,2026-10-13 13:23:54,billing-worker,INFO,alto,"failed_batches=9 total_value_pending=R$ 1068,00",INC-009,1,T034
+L0507,2026-10-13 13:24:11,search-service,WARN,alto,p95_latency=1189ms threshold=400ms,INC-008,1,T030
+L0508,2026-10-13 13:24:13,auth-service,ERROR,alto,token_refresh_failed user=u-49742,INC-006,1,T025
+L0509,2026-10-13 13:24:16,search-service,INFO,alto,reindex shard=9/6 cpu=98%,INC-008,1,T029
+L0510,2026-10-13 13:24:22,search-service,WARN,alto,query_queue=314 timeouts=17,INC-008,1,T031
+L0511,2026-10-13 13:24:25,cache-redis,WARN,medio,used_memory=17% evicted_keys=2762,INC-010,1,T035
+L0512,2026-10-13 13:24:45,billing-worker,INFO,alto,"failed_batches=17 total_value_pending=R$ 218,00",INC-009,1,T034
+L0513,2026-10-13 13:25:08,search-service,INFO,alto,reindex shard=19/6 cpu=91%,INC-008,1,T029
+L0514,2026-10-13 13:26:02,auth-service,ERROR,alto,token_refresh_failed user=u-66384,INC-006,1,T025
+L0515,2026-10-13 13:26:15,auth-service,WARN,alto,idp_latency=3876ms,INC-006,1,T024
+L0516,2026-10-13 13:26:30,billing-worker,ERROR,alto,charge_failed batch=B-80420 reason=gateway_timeout,INC-009,1,T032
+L0517,2026-10-13 13:26:30,auth-service,INFO,ruido,Token renovado (rotina),,0,T068
+L0518,2026-10-13 13:26:45,metrics-agent,INFO,ruido,Coleta de métricas concluída,,0,T070
+L0519,2026-10-13 13:26:52,search-service,WARN,alto,p95_latency=2101ms threshold=400ms,INC-008,1,T030
+L0520,2026-10-13 13:27:04,auth-service,WARN,alto,login_failed rate=54% idp=timeout,INC-006,1,T023
+L0521,2026-10-13 13:27:05,search-service,WARN,alto,p95_latency=9797ms threshold=400ms,INC-008,1,T030
+L0522,2026-10-13 13:27:16,cache-redis,INFO,medio,hit_ratio=88% (anterior 91%),INC-010,1,T036
+L0523,2026-10-13 13:27:26,billing-worker,INFO,alto,"failed_batches=13 total_value_pending=R$ 910,00",INC-009,1,T034
+L0524,2026-10-13 13:27:28,search-service,WARN,alto,p95_latency=3629ms threshold=400ms,INC-008,1,T030
+L0525,2026-10-13 13:27:34,search-service,WARN,alto,p95_latency=870ms threshold=400ms,INC-008,1,T030
+L0526,2026-10-13 13:27:54,search-service,WARN,alto,p95_latency=8770ms threshold=400ms,INC-008,1,T030
+L0527,2026-10-13 13:28:07,auth-service,ERROR,alto,token_refresh_failed user=u-90349,INC-006,1,T025
+L0528,2026-10-13 13:28:20,auth-service,ERROR,alto,token_refresh_failed user=u-66059,INC-006,1,T025
+L0529,2026-10-13 13:28:22,scheduler,INFO,ruido,Execução de rotina concluída sem alterações,,0,T078
+L0530,2026-10-13 13:28:26,billing-worker,WARN,alto,retry scheduled in=15m attempt=19/5,INC-009,1,T033
+L0531,2026-10-13 13:28:27,search-service,WARN,alto,query_queue=98 timeouts=11,INC-008,1,T031
+L0532,2026-10-13 13:28:57,cache-redis,WARN,medio,maxmemory-policy=allkeys-lru active,INC-010,1,T037
+L0533,2026-10-13 13:29:27,auth-service,ERROR,alto,token_refresh_failed user=u-79493,INC-006,1,T025
+L0534,2026-10-13 13:29:28,billing-worker,WARN,alto,retry scheduled in=15m attempt=13/5,INC-009,1,T033
+L0535,2026-10-13 13:29:32,inventory-service,WARN,alto,reserved_mismatch sku=55391 expected=3 actual=271,INC-007,1,T027
+L0536,2026-10-13 13:29:32,inventory-service,ERROR,alto,batch_update partial_failure failed=58 retry=scheduled,INC-007,1,T026
+L0537,2026-10-13 13:29:34,cache-redis,INFO,ruido,Reconexão automática bem-sucedida,,0,T076
+L0538,2026-10-13 13:29:40,auth-service,ERROR,alto,token_refresh_failed user=u-53975,INC-006,1,T025
+L0539,2026-10-13 13:29:43,inventory-service,ERROR,alto,batch_update partial_failure failed=269 retry=scheduled,INC-007,1,T026
+L0540,2026-10-13 13:29:55,inventory-service,INFO,alto,batch_update progress items=2279,INC-007,1,T028
+L0541,2026-10-13 13:30:08,billing-worker,ERROR,alto,charge_failed batch=B-50343 reason=gateway_timeout,INC-009,1,T032
+L0542,2026-10-13 13:30:29,auth-service,WARN,alto,idp_latency=2792ms,INC-006,1,T024
+L0543,2026-10-13 13:30:29,search-service,INFO,ruido,Cache de consulta aquecido,,0,T079
+L0544,2026-10-13 13:30:44,cache-redis,WARN,medio,used_memory=15% evicted_keys=2441,INC-010,1,T035
+L0545,2026-10-13 13:30:57,auth-service,ERROR,alto,token_refresh_failed user=u-84658,INC-006,1,T025
+L0546,2026-10-13 13:31:01,auth-service,WARN,alto,idp_latency=6084ms,INC-006,1,T024
+L0547,2026-10-13 13:31:06,cache-redis,INFO,medio,hit_ratio=75% (anterior 91%),INC-010,1,T036
+L0548,2026-10-13 13:31:10,billing-worker,ERROR,alto,charge_failed batch=B-93793 reason=gateway_timeout,INC-009,1,T032
+L0549,2026-10-13 13:31:24,auth-service,WARN,alto,idp_latency=7544ms,INC-006,1,T024
+L0550,2026-10-13 13:31:35,auth-service,ERROR,alto,token_refresh_failed user=u-62601,INC-006,1,T025
+L0551,2026-10-13 13:31:50,cache-redis,WARN,medio,maxmemory-policy=allkeys-lru active,INC-010,1,T037
+L0552,2026-10-13 13:32:02,inventory-service,INFO,alto,batch_update progress items=5031,INC-007,1,T028
+L0553,2026-10-13 13:32:06,auth-service,WARN,alto,login_failed rate=93% idp=timeout,INC-006,1,T023
+L0554,2026-10-13 13:32:24,inventory-service,WARN,alto,reserved_mismatch sku=51066 expected=17 actual=228,INC-007,1,T027
+L0555,2026-10-13 13:32:24,inventory-service,INFO,alto,batch_update progress items=1801,INC-007,1,T028
+L0556,2026-10-13 13:32:49,inventory-service,INFO,alto,batch_update progress items=4248,INC-007,1,T028
+L0557,2026-10-13 13:32:53,auth-service,WARN,alto,idp_latency=5681ms,INC-006,1,T024
+L0558,2026-10-13 13:33:18,auth-service,WARN,alto,idp_latency=5987ms,INC-006,1,T024
+L0559,2026-10-13 13:33:22,inventory-service,WARN,alto,reserved_mismatch sku=93824 expected=6 actual=193,INC-007,1,T027
+L0560,2026-10-13 13:33:22,search-service,WARN,alto,p95_latency=9624ms threshold=400ms,INC-008,1,T030
+L0561,2026-10-13 13:33:31,auth-service,ERROR,alto,token_refresh_failed user=u-87392,INC-006,1,T025
+L0562,2026-10-13 13:33:40,auth-service,WARN,alto,login_failed rate=64% idp=timeout,INC-006,1,T023
+L0563,2026-10-13 13:33:45,billing-worker,WARN,alto,retry scheduled in=15m attempt=6/5,INC-009,1,T033
+L0564,2026-10-13 13:33:54,auth-service,WARN,alto,login_failed rate=68% idp=timeout,INC-006,1,T023
+L0565,2026-10-13 13:33:57,billing-worker,WARN,alto,retry scheduled in=15m attempt=12/5,INC-009,1,T033
+L0566,2026-10-13 13:34:04,billing-worker,INFO,alto,"failed_batches=6 total_value_pending=R$ 4685,00",INC-009,1,T034
+L0567,2026-10-13 13:34:10,auth-service,ERROR,alto,token_refresh_failed user=u-67321,INC-006,1,T025
+L0568,2026-10-13 13:34:24,auth-service,ERROR,alto,token_refresh_failed user=u-78080,INC-006,1,T025
+L0569,2026-10-13 13:34:37,inventory-service,WARN,alto,reserved_mismatch sku=89215 expected=10 actual=24,INC-007,1,T027
+L0570,2026-10-13 13:34:41,cache-redis,INFO,ruido,Reconexão automática bem-sucedida,,0,T076
+L0571,2026-10-13 13:34:42,billing-worker,INFO,alto,"failed_batches=18 total_value_pending=R$ 1594,00",INC-009,1,T034
+L0572,2026-10-13 13:34:43,search-service,WARN,alto,query_queue=321 timeouts=2,INC-008,1,T031
+L0573,2026-10-13 13:35:01,orders-worker,WARN,alto,queue_depth=468 consumers=4 lag=4m,INC-005,1,T021
+L0574,2026-10-13 13:35:07,orders-worker,ERROR,alto,handler_timeout order=67190 after=15000ms,INC-005,1,T022
+L0575,2026-10-13 13:35:13,inventory-service,WARN,alto,reserved_mismatch sku=89129 expected=16 actual=434,INC-007,1,T027
+L0576,2026-10-13 13:35:16,inventory-service,INFO,alto,batch_update progress items=2658,INC-007,1,T028
+L0577,2026-10-13 13:35:32,orders-worker,INFO,ruido,Mensagem reprocessada com sucesso,,0,T074
+L0578,2026-10-13 13:35:34,orders-worker,ERROR,alto,handler_timeout order=75809 after=15000ms,INC-005,1,T022
+L0579,2026-10-13 13:35:59,orders-worker,ERROR,alto,handler_timeout order=60989 after=15000ms,INC-005,1,T022
+L0580,2026-10-13 13:35:59,orders-worker,ERROR,alto,handler_timeout order=53333 after=15000ms,INC-005,1,T022
+L0581,2026-10-13 13:36:02,auth-service,WARN,alto,idp_latency=6676ms,INC-006,1,T024
+L0582,2026-10-13 13:36:06,auth-service,WARN,alto,idp_latency=2776ms,INC-006,1,T024
+L0583,2026-10-13 13:36:09,orders-worker,WARN,alto,queue_depth=2841 consumers=4 lag=16m,INC-005,1,T021
+L0584,2026-10-13 13:36:17,log-collector,INFO,ruido,Rotação de arquivo de log concluída,,0,T071
+L0585,2026-10-13 13:36:21,db-primary,INFO,ruido,Checkpoint concluído em 2692 ms,,0,T069
+L0586,2026-10-13 13:36:38,billing-worker,ERROR,alto,charge_failed batch=B-68231 reason=gateway_timeout,INC-009,1,T032
+L0587,2026-10-13 13:36:40,search-service,INFO,alto,reindex shard=14/6 cpu=64%,INC-008,1,T029
+L0588,2026-10-13 13:36:41,orders-worker,WARN,alto,queue_depth=1465 consumers=4 lag=3m,INC-005,1,T021
+L0589,2026-10-13 13:36:53,auth-service,WARN,alto,idp_latency=1704ms,INC-006,1,T024
+L0590,2026-10-13 13:37:09,orders-worker,WARN,alto,queue_depth=1498 consumers=4 lag=3m,INC-005,1,T021
+L0591,2026-10-13 13:37:15,orders-worker,WARN,alto,consumer_slow avg_ms=9222,INC-005,1,T020
+L0592,2026-10-13 13:37:25,search-service,WARN,alto,query_queue=331 timeouts=17,INC-008,1,T031
+L0593,2026-10-13 13:37:29,auth-service,WARN,alto,idp_latency=2083ms,INC-006,1,T024
+L0594,2026-10-13 13:37:36,metrics-agent,INFO,ruido,Coleta de métricas concluída,,0,T070
+L0595,2026-10-13 13:37:39,orders-worker,ERROR,alto,handler_timeout order=57609 after=15000ms,INC-005,1,T022
+L0596,2026-10-13 13:37:39,auth-service,ERROR,alto,token_refresh_failed user=u-70661,INC-006,1,T025
+L0597,2026-10-13 13:37:39,inventory-service,WARN,alto,reserved_mismatch sku=99146 expected=19 actual=70,INC-007,1,T027
+L0598,2026-10-13 13:37:40,db-primary,INFO,ruido,Checkpoint concluído em 2279 ms,,0,T069
+L0599,2026-10-13 13:37:45,billing-worker,ERROR,alto,charge_failed batch=B-51437 reason=gateway_timeout,INC-009,1,T032
+L0600,2026-10-13 13:37:53,search-service,WARN,alto,query_queue=347 timeouts=3,INC-008,1,T031
+L0601,2026-10-13 13:38:02,billing-worker,INFO,alto,"failed_batches=12 total_value_pending=R$ 746,00",INC-009,1,T034
+L0602,2026-10-13 13:38:07,inventory-service,INFO,alto,batch_update progress items=1061,INC-007,1,T028
+L0603,2026-10-13 13:38:20,auth-service,ERROR,alto,token_refresh_failed user=u-59111,INC-006,1,T025
+L0604,2026-10-13 13:38:38,billing-worker,ERROR,alto,charge_failed batch=B-92372 reason=gateway_timeout,INC-009,1,T032
+L0605,2026-10-13 13:38:48,billing-worker,INFO,alto,"failed_batches=3 total_value_pending=R$ 3294,00",INC-009,1,T034
+L0606,2026-10-13 13:38:51,orders-worker,WARN,alto,consumer_slow avg_ms=8335,INC-005,1,T020
+L0607,2026-10-13 13:39:07,orders-worker,WARN,alto,consumer_slow avg_ms=5240,INC-005,1,T020
+L0608,2026-10-13 13:39:20,orders-worker,WARN,alto,queue_depth=1407 consumers=4 lag=18m,INC-005,1,T021
+L0609,2026-10-13 13:39:21,billing-worker,ERROR,alto,charge_failed batch=B-83657 reason=gateway_timeout,INC-009,1,T032
+L0610,2026-10-13 13:39:24,search-service,WARN,alto,p95_latency=5144ms threshold=400ms,INC-008,1,T030
+L0611,2026-10-13 13:39:41,auth-service,WARN,alto,login_failed rate=57% idp=timeout,INC-006,1,T023
+L0612,2026-10-13 13:39:43,inventory-service,ERROR,alto,batch_update partial_failure failed=190 retry=scheduled,INC-007,1,T026
+L0613,2026-10-13 13:39:46,search-service,WARN,alto,p95_latency=6254ms threshold=400ms,INC-008,1,T030
+L0614,2026-10-13 13:40:04,billing-worker,ERROR,alto,charge_failed batch=B-65705 reason=gateway_timeout,INC-009,1,T032
+L0615,2026-10-13 13:40:06,orders-worker,ERROR,alto,handler_timeout order=80173 after=15000ms,INC-005,1,T022
+L0616,2026-10-13 13:40:06,search-service,WARN,alto,p95_latency=6759ms threshold=400ms,INC-008,1,T030
+L0617,2026-10-13 13:40:44,auth-service,WARN,alto,login_failed rate=43% idp=timeout,INC-006,1,T023
+L0618,2026-10-13 13:40:48,auth-service,ERROR,alto,token_refresh_failed user=u-69494,INC-006,1,T025
+L0619,2026-10-13 13:41:03,billing-worker,INFO,alto,"failed_batches=15 total_value_pending=R$ 336,00",INC-009,1,T034
+L0620,2026-10-13 13:41:21,orders-worker,ERROR,alto,handler_timeout order=57400 after=15000ms,INC-005,1,T022
+L0621,2026-10-13 13:41:24,orders-worker,ERROR,alto,handler_timeout order=60272 after=15000ms,INC-005,1,T022
+L0622,2026-10-13 13:41:53,search-service,INFO,alto,reindex shard=5/6 cpu=58%,INC-008,1,T029
+L0623,2026-10-13 13:41:56,inventory-service,INFO,alto,batch_update progress items=2790,INC-007,1,T028
+L0624,2026-10-13 13:42:10,orders-worker,ERROR,alto,handler_timeout order=61611 after=15000ms,INC-005,1,T022
+L0625,2026-10-13 13:42:17,inventory-service,ERROR,alto,batch_update partial_failure failed=238 retry=scheduled,INC-007,1,T026
+L0626,2026-10-13 13:42:25,search-service,WARN,alto,p95_latency=1992ms threshold=400ms,INC-008,1,T030
+L0627,2026-10-13 13:42:31,search-service,WARN,alto,query_queue=394 timeouts=3,INC-008,1,T031
+L0628,2026-10-13 13:42:40,auth-service,ERROR,alto,token_refresh_failed user=u-99820,INC-006,1,T025
+L0629,2026-10-13 13:42:53,notification-service,INFO,ruido,Template de e-mail recarregado,,0,T073
+L0630,2026-10-13 13:42:57,search-service,WARN,alto,query_queue=212 timeouts=8,INC-008,1,T031
+L0631,2026-10-13 13:43:10,inventory-service,INFO,alto,batch_update progress items=1559,INC-007,1,T028
+L0632,2026-10-13 13:43:13,search-service,INFO,alto,reindex shard=3/6 cpu=75%,INC-008,1,T029
+L0633,2026-10-13 13:43:17,auth-service,ERROR,alto,token_refresh_failed user=u-63769,INC-006,1,T025
+L0634,2026-10-13 13:43:26,search-service,WARN,alto,query_queue=263 timeouts=16,INC-008,1,T031
+L0635,2026-10-13 13:43:31,orders-worker,ERROR,alto,handler_timeout order=67584 after=15000ms,INC-005,1,T022
+L0636,2026-10-13 13:43:31,billing-worker,ERROR,alto,charge_failed batch=B-61064 reason=gateway_timeout,INC-009,1,T032
+L0637,2026-10-13 13:43:34,inventory-service,INFO,alto,batch_update progress items=4982,INC-007,1,T028
+L0638,2026-10-13 13:43:34,inventory-service,INFO,ruido,Sincronização incremental concluída,,0,T080
+L0639,2026-10-13 13:43:41,inventory-service,WARN,alto,reserved_mismatch sku=65545 expected=17 actual=417,INC-007,1,T027
+L0640,2026-10-13 13:43:43,billing-worker,ERROR,alto,charge_failed batch=B-71063 reason=gateway_timeout,INC-009,1,T032
+L0641,2026-10-13 13:43:46,auth-service,WARN,alto,idp_latency=2927ms,INC-006,1,T024
+L0642,2026-10-13 13:43:55,auth-service,ERROR,alto,token_refresh_failed user=u-86560,INC-006,1,T025
+L0643,2026-10-13 13:43:57,inventory-service,INFO,alto,batch_update progress items=1821,INC-007,1,T028
+L0644,2026-10-13 13:43:58,billing-worker,ERROR,alto,charge_failed batch=B-56009 reason=gateway_timeout,INC-009,1,T032
+L0645,2026-10-13 13:44:05,orders-worker,ERROR,alto,handler_timeout order=78605 after=15000ms,INC-005,1,T022
+L0646,2026-10-13 13:44:05,scheduler,INFO,ruido,Execução de rotina concluída sem alterações,,0,T078
+L0647,2026-10-13 13:44:17,orders-worker,WARN,alto,consumer_slow avg_ms=5504,INC-005,1,T020
+L0648,2026-10-13 13:44:19,orders-worker,WARN,alto,queue_depth=3815 consumers=4 lag=17m,INC-005,1,T021
+L0649,2026-10-13 13:44:20,inventory-service,INFO,alto,batch_update progress items=482,INC-007,1,T028
+L0650,2026-10-13 13:44:32,search-service,INFO,alto,reindex shard=10/6 cpu=69%,INC-008,1,T029
+L0651,2026-10-13 13:44:40,search-service,WARN,alto,query_queue=72 timeouts=5,INC-008,1,T031
+L0652,2026-10-13 13:44:50,orders-worker,ERROR,alto,handler_timeout order=78244 after=15000ms,INC-005,1,T022
+L0653,2026-10-13 13:44:56,search-service,WARN,alto,query_queue=318 timeouts=3,INC-008,1,T031
+L0654,2026-10-13 13:45:03,db-primary,ERROR,critico,"FATAL: sorry, too many clients already",INC-004,1,T017
+L0655,2026-10-13 13:45:04,search-service,WARN,alto,query_queue=232 timeouts=15,INC-008,1,T031
+L0656,2026-10-13 13:45:07,db-primary,WARN,critico,lock_wait=3 blocked_sessions=12,INC-004,1,T018
+L0657,2026-10-13 13:45:07,orders-worker,WARN,alto,queue_depth=2239 consumers=4 lag=3m,INC-005,1,T021
+L0658,2026-10-13 13:45:13,orders-worker,ERROR,alto,handler_timeout order=99770 after=15000ms,INC-005,1,T022
+L0659,2026-10-13 13:45:15,inventory-service,ERROR,alto,batch_update partial_failure failed=123 retry=scheduled,INC-007,1,T026
+L0660,2026-10-13 13:45:19,inventory-service,ERROR,alto,batch_update partial_failure failed=242 retry=scheduled,INC-007,1,T026
+L0661,2026-10-13 13:45:29,db-primary,ERROR,critico,"FATAL: sorry, too many clients already",INC-004,1,T017
+L0662,2026-10-13 13:45:30,inventory-service,INFO,alto,batch_update progress items=934,INC-007,1,T028
+L0663,2026-10-13 13:45:43,orders-worker,WARN,alto,consumer_slow avg_ms=7144,INC-005,1,T020
+L0664,2026-10-13 13:45:55,search-service,INFO,alto,reindex shard=15/6 cpu=94%,INC-008,1,T029
+L0665,2026-10-13 13:45:57,inventory-service,WARN,alto,reserved_mismatch sku=74955 expected=13 actual=94,INC-007,1,T027
+L0666,2026-10-13 13:45:57,inventory-service,WARN,alto,reserved_mismatch sku=82967 expected=17 actual=93,INC-007,1,T027
+L0667,2026-10-13 13:45:58,search-service,WARN,alto,p95_latency=6646ms threshold=400ms,INC-008,1,T030
+L0668,2026-10-13 13:45:59,auth-service,INFO,ruido,Token renovado (rotina),,0,T068
+L0669,2026-10-13 13:46:07,orders-worker,INFO,ruido,Mensagem reprocessada com sucesso,,0,T074
+L0670,2026-10-13 13:46:14,db-primary,WARN,critico,slow_query duration=7054ms table=transactions,INC-004,1,T016
+L0671,2026-10-13 13:46:18,db-primary,ERROR,critico,replication_lag=2s replica=db-replica-2,INC-004,1,T015
+L0672,2026-10-13 13:46:19,orders-worker,WARN,alto,consumer_slow avg_ms=7106,INC-005,1,T020
+L0673,2026-10-13 13:46:19,api-gateway,INFO,ruido,Health check respondeu em 1761 ms (limite 200 ms),,0,T077
+L0674,2026-10-13 13:46:22,orders-worker,WARN,alto,queue_depth=3220 consumers=4 lag=18m,INC-005,1,T021
+L0675,2026-10-13 13:46:28,inventory-service,INFO,alto,batch_update progress items=3954,INC-007,1,T028
+L0676,2026-10-13 13:46:30,orders-worker,WARN,alto,consumer_slow avg_ms=4891,INC-005,1,T020
+L0677,2026-10-13 13:46:30,orders-worker,WARN,alto,consumer_slow avg_ms=2312,INC-005,1,T020
+L0678,2026-10-13 13:46:37,db-primary,ERROR,critico,"FATAL: sorry, too many clients already",INC-004,1,T017
+L0679,2026-10-13 13:46:46,search-service,INFO,alto,reindex shard=14/6 cpu=86%,INC-008,1,T029
+L0680,2026-10-13 13:46:47,db-primary,WARN,critico,connections=56/500 (98%),INC-004,1,T019
+L0681,2026-10-13 13:46:58,db-primary,WARN,critico,slow_query duration=9506ms table=transactions,INC-004,1,T016
+L0682,2026-10-13 13:47:01,checkout-service,ERROR,critico,retry 3/3 failed,INC-002,1,T006
+L0683,2026-10-13 13:47:02,db-primary,WARN,critico,slow_query duration=1113ms table=transactions,INC-004,1,T016
+L0684,2026-10-13 13:47:05,checkout-service,ERROR,critico,payment_confirmation_missing order=55961,INC-002,1,T007
+L0685,2026-10-13 13:47:05,db-primary,ERROR,critico,replication_lag=6s replica=db-replica-2,INC-004,1,T015
+L0686,2026-10-13 13:47:08,search-service,WARN,alto,query_queue=325 timeouts=12,INC-008,1,T031
+L0687,2026-10-13 13:47:10,inventory-service,INFO,alto,batch_update progress items=224,INC-007,1,T028
+L0688,2026-10-13 13:47:18,auth-service,WARN,alto,login_failed rate=50% idp=timeout,INC-006,1,T023
+L0689,2026-10-13 13:47:21,db-primary,WARN,critico,connections=56/500 (98%),INC-004,1,T019
+L0690,2026-10-13 13:47:22,checkout-service,ERROR,critico,retry 3/3 failed,INC-002,1,T006
+L0691,2026-10-13 13:47:28,orders-worker,ERROR,alto,handler_timeout order=71185 after=15000ms,INC-005,1,T022
+L0692,2026-10-13 13:47:29,checkout-service,ERROR,critico,POST /checkout 500 dependency=payments-api order=59502,INC-002,1,T008
+L0693,2026-10-13 13:47:35,search-service,INFO,alto,reindex shard=4/6 cpu=63%,INC-008,1,T029
+L0694,2026-10-13 13:47:38,db-primary,WARN,critico,slow_query duration=2745ms table=transactions,INC-004,1,T016
+L0695,2026-10-13 13:47:40,db-primary,WARN,critico,connections=96/500 (98%),INC-004,1,T019
+L0696,2026-10-13 13:47:49,checkout-service,ERROR,critico,payment_confirmation_missing order=97473,INC-002,1,T007
+L0697,2026-10-13 13:47:53,inventory-service,INFO,alto,batch_update progress items=3753,INC-007,1,T028
+L0698,2026-10-13 13:47:54,checkout-service,ERROR,critico,retry 3/3 failed,INC-002,1,T006
+L0699,2026-10-13 13:48:02,db-primary,INFO,ruido,Checkpoint concluído em 1714 ms,,0,T069
+L0700,2026-10-13 13:48:03,orders-worker,WARN,alto,queue_depth=4417 consumers=4 lag=12m,INC-005,1,T021
+L0701,2026-10-13 13:48:04,inventory-service,WARN,alto,reserved_mismatch sku=81171 expected=9 actual=73,INC-007,1,T027
+L0702,2026-10-13 13:48:07,checkout-service,ERROR,critico,retry 3/3 failed,INC-002,1,T006
+L0703,2026-10-13 13:48:07,billing-worker,WARN,alto,retry scheduled in=15m attempt=7/5,INC-009,1,T033
+L0704,2026-10-13 13:48:10,orders-worker,ERROR,alto,handler_timeout order=99273 after=15000ms,INC-005,1,T022
+L0705,2026-10-13 13:48:11,metrics-agent,INFO,ruido,Coleta de métricas concluída,,0,T070
+L0706,2026-10-13 13:48:16,inventory-service,ERROR,alto,batch_update partial_failure failed=373 retry=scheduled,INC-007,1,T026
+L0707,2026-10-13 13:48:20,checkout-service,WARN,critico,error_rate=6%,INC-002,1,T009
+L0708,2026-10-13 13:48:20,checkout-service,ERROR,critico,POST /checkout 500 dependency=payments-api order=92500,INC-002,1,T008
+L0709,2026-10-13 13:48:22,checkout-service,ERROR,critico,POST /checkout 500 dependency=payments-api order=82579,INC-002,1,T008
+L0710,2026-10-13 13:48:24,billing-worker,ERROR,alto,charge_failed batch=B-88074 reason=gateway_timeout,INC-009,1,T032
+L0711,2026-10-13 13:48:34,checkout-service,ERROR,critico,payment_confirmation_missing order=64708,INC-002,1,T007
+L0712,2026-10-13 13:48:41,db-primary,ERROR,critico,"FATAL: sorry, too many clients already",INC-004,1,T017
+L0713,2026-10-13 13:48:43,checkout-service,ERROR,critico,retry 3/3 failed,INC-002,1,T006
+L0714,2026-10-13 13:48:45,orders-worker,ERROR,alto,handler_timeout order=51965 after=15000ms,INC-005,1,T022
+L0715,2026-10-13 13:48:48,checkout-service,ERROR,critico,payment_confirmation_missing order=78396,INC-002,1,T007
+L0716,2026-10-13 13:48:49,db-primary,WARN,critico,lock_wait=3 blocked_sessions=366,INC-004,1,T018
+L0717,2026-10-13 13:48:49,db-primary,WARN,critico,connections=74/500 (98%),INC-004,1,T019
+L0718,2026-10-13 13:48:52,db-primary,WARN,critico,connections=59/500 (98%),INC-004,1,T019
+L0719,2026-10-13 13:48:53,checkout-service,ERROR,critico,payment_confirmation_missing order=75257,INC-002,1,T007
+L0720,2026-10-13 13:48:54,orders-worker,ERROR,alto,handler_timeout order=59538 after=15000ms,INC-005,1,T022
+L0721,2026-10-13 13:49:00,orders-worker,WARN,alto,queue_depth=4549 consumers=4 lag=14m,INC-005,1,T021
+L0722,2026-10-13 13:49:01,orders-worker,WARN,alto,queue_depth=4234 consumers=4 lag=19m,INC-005,1,T021
+L0723,2026-10-13 13:49:05,checkout-service,ERROR,critico,retry 3/3 failed,INC-002,1,T006
+L0724,2026-10-13 13:49:09,db-primary,WARN,critico,connections=85/500 (98%),INC-004,1,T019
+L0725,2026-10-13 13:49:20,db-primary,ERROR,critico,"FATAL: sorry, too many clients already",INC-004,1,T017
+L0726,2026-10-13 13:49:21,checkout-service,ERROR,critico,payment_confirmation_missing order=57436,INC-002,1,T007
+L0727,2026-10-13 13:49:21,db-primary,WARN,critico,slow_query duration=7494ms table=transactions,INC-004,1,T016
+L0728,2026-10-13 13:49:22,auth-service,WARN,alto,idp_latency=2158ms,INC-006,1,T024
+L0729,2026-10-13 13:49:23,inventory-service,WARN,alto,reserved_mismatch sku=64518 expected=11 actual=467,INC-007,1,T027
+L0730,2026-10-13 13:49:27,checkout-service,ERROR,critico,retry 3/3 failed,INC-002,1,T006
+L0731,2026-10-13 13:49:27,auth-service,WARN,alto,login_failed rate=48% idp=timeout,INC-006,1,T023
+L0732,2026-10-13 13:49:31,checkout-service,WARN,critico,error_rate=82%,INC-002,1,T009
+L0733,2026-10-13 13:49:31,db-primary,ERROR,critico,"FATAL: sorry, too many clients already",INC-004,1,T017
+L0734,2026-10-13 13:49:38,db-primary,WARN,critico,connections=83/500 (98%),INC-004,1,T019
+L0735,2026-10-13 13:49:38,orders-worker,ERROR,alto,handler_timeout order=72385 after=15000ms,INC-005,1,T022
+L0736,2026-10-13 13:49:42,checkout-service,ERROR,critico,payment_confirmation_missing order=79333,INC-002,1,T007
+L0737,2026-10-13 13:49:42,orders-worker,WARN,alto,consumer_slow avg_ms=1316,INC-005,1,T020
+L0738,2026-10-13 13:49:45,db-primary,ERROR,critico,replication_lag=4s replica=db-replica-2,INC-004,1,T015
+L0739,2026-10-13 13:49:51,db-primary,WARN,critico,connections=87/500 (98%),INC-004,1,T019
+L0740,2026-10-13 13:49:51,inventory-service,ERROR,alto,batch_update partial_failure failed=464 retry=scheduled,INC-007,1,T026
+L0741,2026-10-13 13:49:51,billing-worker,INFO,alto,"failed_batches=11 total_value_pending=R$ 3322,00",INC-009,1,T034
+L0742,2026-10-13 13:49:52,checkout-service,WARN,critico,error_rate=14%,INC-002,1,T009
+L0743,2026-10-13 13:49:55,checkout-service,ERROR,critico,retry 3/3 failed,INC-002,1,T006
+L0744,2026-10-13 13:49:59,db-primary,WARN,critico,connections=72/500 (98%),INC-004,1,T019
+L0745,2026-10-13 13:50:03,checkout-service,WARN,critico,error_rate=21%,INC-002,1,T009
+L0746,2026-10-13 13:50:05,api-gateway,INFO,critico,autoscale requested replicas=6->10,INC-003,1,T010
+L0747,2026-10-13 13:50:05,auth-service,WARN,alto,idp_latency=6087ms,INC-006,1,T024
+L0748,2026-10-13 13:50:13,checkout-service,ERROR,critico,payment_confirmation_missing order=83841,INC-002,1,T007
+L0749,2026-10-13 13:50:14,api-gateway,WARN,critico,error_rate=67% threshold=5%,INC-003,1,T011
+L0750,2026-10-13 13:50:16,orders-worker,ERROR,alto,handler_timeout order=66777 after=15000ms,INC-005,1,T022
+L0751,2026-10-13 13:50:17,api-gateway,WARN,critico,error_rate=63% threshold=5%,INC-003,1,T011
+L0752,2026-10-13 13:50:20,db-primary,WARN,critico,connections=65/500 (98%),INC-004,1,T019
+L0753,2026-10-13 13:50:21,api-gateway,ERROR,critico,upstream=checkout-service status=500 count=443,INC-003,1,T014
+L0754,2026-10-13 13:50:24,auth-service,WARN,alto,idp_latency=4592ms,INC-006,1,T024
+L0755,2026-10-13 13:50:29,checkout-service,ERROR,critico,POST /checkout 500 dependency=payments-api order=67298,INC-002,1,T008
+L0756,2026-10-13 13:50:30,billing-worker,ERROR,alto,charge_failed batch=B-61017 reason=gateway_timeout,INC-009,1,T032
+L0757,2026-10-13 13:50:32,api-gateway,WARN,critico,circuit_breaker=OPEN upstream=payments-api,INC-003,1,T012
+L0758,2026-10-13 13:50:34,api-gateway,ERROR,critico,upstream=payments-api status=502 count=399,INC-003,1,T013
+L0759,2026-10-13 13:50:36,api-gateway,ERROR,critico,upstream=payments-api status=502 count=30,INC-003,1,T013
+L0760,2026-10-13 13:50:37,auth-service,WARN,alto,idp_latency=3235ms,INC-006,1,T024
+L0761,2026-10-13 13:50:37,billing-worker,ERROR,alto,charge_failed batch=B-66677 reason=gateway_timeout,INC-009,1,T032
+L0762,2026-10-13 13:50:38,orders-worker,WARN,alto,queue_depth=4570 consumers=4 lag=12m,INC-005,1,T021
+L0763,2026-10-13 13:50:38,orders-worker,WARN,alto,consumer_slow avg_ms=9073,INC-005,1,T020
+L0764,2026-10-13 13:50:43,checkout-service,ERROR,critico,POST /checkout 500 dependency=payments-api order=77320,INC-002,1,T008
+L0765,2026-10-13 13:50:44,checkout-service,WARN,critico,error_rate=95%,INC-002,1,T009
+L0766,2026-10-13 13:50:45,api-gateway,INFO,critico,autoscale requested replicas=6->10,INC-003,1,T010
+L0767,2026-10-13 13:50:45,db-primary,WARN,critico,connections=64/500 (98%),INC-004,1,T019
+L0768,2026-10-13 13:50:50,api-gateway,WARN,critico,circuit_breaker=OPEN upstream=payments-api,INC-003,1,T012
+L0769,2026-10-13 13:50:51,db-primary,ERROR,critico,"FATAL: sorry, too many clients already",INC-004,1,T017
+L0770,2026-10-13 13:50:53,orders-worker,WARN,alto,queue_depth=4751 consumers=4 lag=8m,INC-005,1,T021
+L0771,2026-10-13 13:50:54,orders-worker,WARN,alto,consumer_slow avg_ms=7484,INC-005,1,T020
+L0772,2026-10-13 13:50:59,api-gateway,ERROR,critico,upstream=payments-api status=502 count=215,INC-003,1,T013
+L0773,2026-10-13 13:50:59,search-service,WARN,alto,query_queue=183 timeouts=9,INC-008,1,T031
+L0774,2026-10-13 13:51:00,auth-service,WARN,alto,login_failed rate=77% idp=timeout,INC-006,1,T023
+L0775,2026-10-13 13:51:01,api-gateway,WARN,critico,circuit_breaker=OPEN upstream=payments-api,INC-003,1,T012
+L0776,2026-10-13 13:51:06,checkout-service,WARN,critico,error_rate=79%,INC-002,1,T009
+L0777,2026-10-13 13:51:08,checkout-service,ERROR,critico,POST /checkout 500 dependency=payments-api order=75099,INC-002,1,T008
+L0778,2026-10-13 13:51:10,db-primary,ERROR,critico,"FATAL: sorry, too many clients already",INC-004,1,T017
+L0779,2026-10-13 13:51:16,api-gateway,WARN,critico,error_rate=82% threshold=5%,INC-003,1,T011
+L0780,2026-10-13 13:51:17,api-gateway,WARN,critico,error_rate=31% threshold=5%,INC-003,1,T011
+L0781,2026-10-13 13:51:17,billing-worker,INFO,alto,"failed_batches=10 total_value_pending=R$ 3395,00",INC-009,1,T034
+L0782,2026-10-13 13:51:20,api-gateway,WARN,critico,circuit_breaker=OPEN upstream=payments-api,INC-003,1,T012
+L0783,2026-10-13 13:51:21,checkout-service,ERROR,critico,payment_confirmation_missing order=69432,INC-002,1,T007
+L0784,2026-10-13 13:51:22,db-primary,WARN,critico,connections=84/500 (98%),INC-004,1,T019
+L0785,2026-10-13 13:51:24,search-service,WARN,alto,p95_latency=6467ms threshold=400ms,INC-008,1,T030
+L0786,2026-10-13 13:51:25,checkout-service,ERROR,critico,payment_confirmation_missing order=93921,INC-002,1,T007
+L0787,2026-10-13 13:51:25,db-primary,ERROR,critico,"FATAL: sorry, too many clients already",INC-004,1,T017
+L0788,2026-10-13 13:51:26,auth-service,WARN,alto,login_failed rate=46% idp=timeout,INC-006,1,T023
+L0789,2026-10-13 13:51:26,search-service,WARN,alto,query_queue=430 timeouts=2,INC-008,1,T031
+L0790,2026-10-13 13:51:28,checkout-service,ERROR,critico,POST /checkout 500 dependency=payments-api order=65458,INC-002,1,T008
+L0791,2026-10-13 13:51:30,db-primary,WARN,critico,lock_wait=3 blocked_sessions=52,INC-004,1,T018
+L0792,2026-10-13 13:51:31,api-gateway,WARN,critico,error_rate=59% threshold=5%,INC-003,1,T011
+L0793,2026-10-13 13:51:35,checkout-service,ERROR,critico,POST /checkout 500 dependency=payments-api order=99103,INC-002,1,T008
+L0794,2026-10-13 13:51:36,db-primary,WARN,critico,slow_query duration=8723ms table=transactions,INC-004,1,T016
+L0795,2026-10-13 13:51:36,cache-redis,INFO,ruido,Reconexão automática bem-sucedida,,0,T076
+L0796,2026-10-13 13:51:38,api-gateway,ERROR,critico,upstream=payments-api status=502 count=209,INC-003,1,T013
+L0797,2026-10-13 13:51:39,orders-worker,ERROR,alto,handler_timeout order=91859 after=15000ms,INC-005,1,T022
+L0798,2026-10-13 13:51:41,orders-worker,ERROR,alto,handler_timeout order=91568 after=15000ms,INC-005,1,T022
+L0799,2026-10-13 13:51:42,api-gateway,WARN,critico,circuit_breaker=OPEN upstream=payments-api,INC-003,1,T012
+L0800,2026-10-13 13:51:42,inventory-service,WARN,alto,reserved_mismatch sku=55996 expected=10 actual=63,INC-007,1,T027
+L0801,2026-10-13 13:51:45,billing-worker,WARN,alto,retry scheduled in=15m attempt=16/5,INC-009,1,T033
+L0802,2026-10-13 13:51:46,api-gateway,WARN,critico,error_rate=44% threshold=5%,INC-003,1,T011
+L0803,2026-10-13 13:51:47,db-primary,WARN,critico,slow_query duration=339ms table=transactions,INC-004,1,T016
+L0804,2026-10-13 13:51:50,inventory-service,ERROR,alto,batch_update partial_failure failed=363 retry=scheduled,INC-007,1,T026
+L0805,2026-10-13 13:51:51,api-gateway,ERROR,critico,upstream=checkout-service status=500 count=51,INC-003,1,T014
+L0806,2026-10-13 13:51:51,db-primary,WARN,critico,slow_query duration=1207ms table=transactions,INC-004,1,T016
+L0807,2026-10-13 13:51:54,db-primary,WARN,critico,lock_wait=3 blocked_sessions=213,INC-004,1,T018
+L0808,2026-10-13 13:51:55,api-gateway,ERROR,critico,upstream=checkout-service status=500 count=330,INC-003,1,T014
+L0809,2026-10-13 13:51:55,orders-worker,ERROR,alto,handler_timeout order=60412 after=15000ms,INC-005,1,T022
+L0810,2026-10-13 13:51:56,inventory-service,ERROR,alto,batch_update partial_failure failed=57 retry=scheduled,INC-007,1,T026
+L0811,2026-10-13 13:51:59,orders-worker,WARN,alto,queue_depth=5023 consumers=4 lag=2m,INC-005,1,T021
+L0812,2026-10-13 13:51:59,inventory-service,INFO,alto,batch_update progress items=1165,INC-007,1,T028
+L0813,2026-10-13 13:52:00,payments-api,ERROR,critico,Timeout after 7602ms waiting for connection from pool,INC-001,1,T001
+L0814,2026-10-13 13:52:01,payments-api,ERROR,critico,HTTP 502 upstream=db-primary,INC-001,1,T004
+L0815,2026-10-13 13:52:05,checkout-service,WARN,critico,error_rate=70%,INC-002,1,T009
+L0816,2026-10-13 13:52:07,checkout-service,ERROR,critico,POST /checkout 500 dependency=payments-api order=71865,INC-002,1,T008
+L0817,2026-10-13 13:52:07,api-gateway,INFO,critico,autoscale requested replicas=6->10,INC-003,1,T010
+L0818,2026-10-13 13:52:08,payments-api,ERROR,critico,Timeout after 2665ms waiting for connection from pool,INC-001,1,T001
+L0819,2026-10-13 13:52:09,payments-api,WARN,critico,retry 8/3 upstream=db-primary,INC-001,1,T005
+L0820,2026-10-13 13:52:09,api-gateway,INFO,critico,autoscale requested replicas=6->10,INC-003,1,T010
+L0821,2026-10-13 13:52:10,payments-api,WARN,critico,pool exhausted active=50 idle=0 waiting=95,INC-001,1,T003
+L0822,2026-10-13 13:52:10,checkout-service,ERROR,critico,retry 3/3 failed,INC-002,1,T006
+L0823,2026-10-13 13:52:10,db-primary,ERROR,critico,"FATAL: sorry, too many clients already",INC-004,1,T017
+L0824,2026-10-13 13:52:11,inventory-service,INFO,alto,batch_update progress items=1174,INC-007,1,T028
+L0825,2026-10-13 13:52:14,payments-api,WARN,critico,retry 5/3 upstream=db-primary,INC-001,1,T005
+L0826,2026-10-13 13:52:14,payments-api,WARN,critico,pool exhausted active=50 idle=0 waiting=333,INC-001,1,T003
+L0827,2026-10-13 13:52:15,search-service,WARN,alto,query_queue=90 timeouts=2,INC-008,1,T031
+L0828,2026-10-13 13:52:16,payments-api,WARN,critico,pool exhausted active=50 idle=0 waiting=166,INC-001,1,T003
+L0829,2026-10-13 13:52:22,api-gateway,ERROR,critico,upstream=checkout-service status=500 count=247,INC-003,1,T014
+L0830,2026-10-13 13:52:24,search-service,WARN,alto,p95_latency=7162ms threshold=400ms,INC-008,1,T030
+L0831,2026-10-13 13:52:25,payments-api,ERROR,critico,HTTP 502 upstream=db-primary,INC-001,1,T004
+L0832,2026-10-13 13:52:26,payments-api,WARN,critico,retry 14/3 upstream=db-primary,INC-001,1,T005
+L0833,2026-10-13 13:52:27,api-gateway,ERROR,critico,upstream=payments-api status=502 count=419,INC-003,1,T013
+L0834,2026-10-13 13:52:27,orders-worker,ERROR,alto,handler_timeout order=85676 after=15000ms,INC-005,1,T022
+L0835,2026-10-13 13:52:27,metrics-agent,INFO,ruido,Coleta de métricas concluída,,0,T070
+L0836,2026-10-13 13:52:28,api-gateway,ERROR,critico,upstream=payments-api status=502 count=67,INC-003,1,T013
+L0837,2026-10-13 13:52:31,payments-api,WARN,critico,pool exhausted active=50 idle=0 waiting=363,INC-001,1,T003
+L0838,2026-10-13 13:52:32,payments-api,ERROR,critico,HTTP 502 upstream=db-primary,INC-001,1,T004
+L0839,2026-10-13 13:52:32,checkout-service,ERROR,critico,retry 3/3 failed,INC-002,1,T006
+L0840,2026-10-13 13:52:34,db-primary,WARN,critico,connections=63/500 (98%),INC-004,1,T019
+L0841,2026-10-13 13:52:35,api-gateway,ERROR,critico,upstream=payments-api status=502 count=299,INC-003,1,T013
+L0842,2026-10-13 13:52:36,payments-api,ERROR,critico,transaction_failed order=63002 reason=timeout,INC-001,1,T002
+L0843,2026-10-13 13:52:37,payments-api,WARN,critico,retry 18/3 upstream=db-primary,INC-001,1,T005
+L0844,2026-10-13 13:52:37,api-gateway,INFO,critico,autoscale requested replicas=6->10,INC-003,1,T010
+L0845,2026-10-13 13:52:37,db-primary,ERROR,critico,"FATAL: sorry, too many clients already",INC-004,1,T017
+L0846,2026-10-13 13:52:39,payments-api,ERROR,critico,HTTP 502 upstream=db-primary,INC-001,1,T004
+L0847,2026-10-13 13:52:39,checkout-service,ERROR,critico,retry 3/3 failed,INC-002,1,T006
+L0848,2026-10-13 13:52:39,api-gateway,INFO,critico,autoscale requested replicas=6->10,INC-003,1,T010
+L0849,2026-10-13 13:52:39,db-primary,ERROR,critico,replication_lag=5s replica=db-replica-2,INC-004,1,T015
+L0850,2026-10-13 13:52:40,db-primary,WARN,critico,lock_wait=3 blocked_sessions=22,INC-004,1,T018
+L0851,2026-10-13 13:52:42,checkout-service,ERROR,critico,POST /checkout 500 dependency=payments-api order=78853,INC-002,1,T008
+L0852,2026-10-13 13:52:47,checkout-service,WARN,critico,error_rate=27%,INC-002,1,T009
+L0853,2026-10-13 13:52:48,payments-api,WARN,critico,pool exhausted active=50 idle=0 waiting=333,INC-001,1,T003
+L0854,2026-10-13 13:52:49,api-gateway,ERROR,critico,upstream=payments-api status=502 count=145,INC-003,1,T013
+L0855,2026-10-13 13:52:53,payments-api,WARN,critico,pool exhausted active=50 idle=0 waiting=140,INC-001,1,T003
+L0856,2026-10-13 13:52:53,orders-worker,WARN,alto,consumer_slow avg_ms=3076,INC-005,1,T020
+L0857,2026-10-13 13:52:54,payments-api,ERROR,critico,transaction_failed order=96695 reason=timeout,INC-001,1,T002
+L0858,2026-10-13 13:52:54,checkout-service,ERROR,critico,payment_confirmation_missing order=82432,INC-002,1,T007
+L0859,2026-10-13 13:52:55,inventory-service,ERROR,alto,batch_update partial_failure failed=159 retry=scheduled,INC-007,1,T026
+L0860,2026-10-13 13:52:56,api-gateway,INFO,critico,autoscale requested replicas=6->10,INC-003,1,T010
+L0861,2026-10-13 13:52:57,payments-api,WARN,critico,retry 18/3 upstream=db-primary,INC-001,1,T005
+L0862,2026-10-13 13:52:57,payments-api,WARN,critico,retry 18/3 upstream=db-primary,INC-001,1,T005
+L0863,2026-10-13 13:52:59,payments-api,ERROR,critico,HTTP 502 upstream=db-primary,INC-001,1,T004
+L0864,2026-10-13 13:52:59,api-gateway,INFO,critico,autoscale requested replicas=6->10,INC-003,1,T010
+L0865,2026-10-13 13:52:59,api-gateway,WARN,critico,circuit_breaker=OPEN upstream=payments-api,INC-003,1,T012
+L0866,2026-10-13 13:52:59,api-gateway,WARN,critico,circuit_breaker=OPEN upstream=payments-api,INC-003,1,T012
+L0867,2026-10-13 13:53:01,payments-api,ERROR,critico,transaction_failed order=62389 reason=timeout,INC-001,1,T002
+L0868,2026-10-13 13:53:01,checkout-service,ERROR,critico,POST /checkout 500 dependency=payments-api order=97594,INC-002,1,T008
+L0869,2026-10-13 13:53:04,api-gateway,ERROR,critico,upstream=checkout-service status=500 count=45,INC-003,1,T014
+L0870,2026-10-13 13:53:05,db-primary,WARN,critico,connections=65/500 (98%),INC-004,1,T019
+L0871,2026-10-13 13:53:06,payments-api,ERROR,critico,HTTP 502 upstream=db-primary,INC-001,1,T004
+L0872,2026-10-13 13:53:07,payments-api,ERROR,critico,HTTP 502 upstream=db-primary,INC-001,1,T004
+L0873,2026-10-13 13:53:12,search-service,INFO,alto,reindex shard=12/6 cpu=53%,INC-008,1,T029
+L0874,2026-10-13 13:53:13,checkout-service,WARN,critico,error_rate=63%,INC-002,1,T009
+L0875,2026-10-13 13:53:16,payments-api,ERROR,critico,Timeout after 7036ms waiting for connection from pool,INC-001,1,T001
+L0876,2026-10-13 13:53:17,payments-api,WARN,critico,retry 17/3 upstream=db-primary,INC-001,1,T005
+L0877,2026-10-13 13:53:17,db-primary,ERROR,critico,replication_lag=2s replica=db-replica-2,INC-004,1,T015
+L0878,2026-10-13 13:53:18,payments-api,WARN,critico,retry 14/3 upstream=db-primary,INC-001,1,T005
+L0879,2026-10-13 13:53:21,payments-api,ERROR,critico,Timeout after 8443ms waiting for connection from pool,INC-001,1,T001
+L0880,2026-10-13 13:53:21,payments-api,WARN,critico,pool exhausted active=50 idle=0 waiting=427,INC-001,1,T003
+L0881,2026-10-13 13:53:21,payments-api,ERROR,critico,Timeout after 4575ms waiting for connection from pool,INC-001,1,T001
+L0882,2026-10-13 13:53:21,checkout-service,ERROR,critico,retry 3/3 failed,INC-002,1,T006
+L0883,2026-10-13 13:53:21,auth-service,ERROR,alto,token_refresh_failed user=u-92446,INC-006,1,T025
+L0884,2026-10-13 13:53:22,db-primary,ERROR,critico,"FATAL: sorry, too many clients already",INC-004,1,T017
+L0885,2026-10-13 13:53:22,auth-service,WARN,alto,idp_latency=8205ms,INC-006,1,T024
+L0886,2026-10-13 13:53:23,db-primary,ERROR,critico,"FATAL: sorry, too many clients already",INC-004,1,T017
+L0887,2026-10-13 13:53:24,db-primary,ERROR,critico,replication_lag=7s replica=db-replica-2,INC-004,1,T015
+L0888,2026-10-13 13:53:26,checkout-service,ERROR,critico,POST /checkout 500 dependency=payments-api order=86971,INC-002,1,T008
+L0889,2026-10-13 13:53:27,api-gateway,WARN,critico,error_rate=91% threshold=5%,INC-003,1,T011
+L0890,2026-10-13 13:53:28,api-gateway,ERROR,critico,upstream=payments-api status=502 count=231,INC-003,1,T013
+L0891,2026-10-13 13:53:29,api-gateway,WARN,critico,error_rate=29% threshold=5%,INC-003,1,T011
+L0892,2026-10-13 13:53:30,payments-api,ERROR,critico,Timeout after 2778ms waiting for connection from pool,INC-001,1,T001
+L0893,2026-10-13 13:53:30,payments-api,WARN,critico,retry 6/3 upstream=db-primary,INC-001,1,T005
+L0894,2026-10-13 13:53:30,api-gateway,ERROR,critico,upstream=payments-api status=502 count=307,INC-003,1,T013
+L0895,2026-10-13 13:53:30,db-primary,ERROR,critico,replication_lag=6s replica=db-replica-2,INC-004,1,T015
+L0896,2026-10-13 13:53:30,auth-service,WARN,alto,idp_latency=9646ms,INC-006,1,T024
+L0897,2026-10-13 13:53:31,payments-api,ERROR,critico,transaction_failed order=95315 reason=timeout,INC-001,1,T002
+L0898,2026-10-13 13:53:33,api-gateway,ERROR,critico,upstream=payments-api status=502 count=176,INC-003,1,T013
+L0899,2026-10-13 13:53:34,payments-api,ERROR,critico,transaction_failed order=96991 reason=timeout,INC-001,1,T002
+L0900,2026-10-13 13:53:34,checkout-service,ERROR,critico,POST /checkout 500 dependency=payments-api order=98418,INC-002,1,T008
+L0901,2026-10-13 13:53:35,payments-api,ERROR,critico,HTTP 502 upstream=db-primary,INC-001,1,T004
+L0902,2026-10-13 13:53:39,payments-api,ERROR,critico,HTTP 502 upstream=db-primary,INC-001,1,T004
+L0903,2026-10-13 13:53:39,api-gateway,INFO,critico,autoscale requested replicas=6->10,INC-003,1,T010
+L0904,2026-10-13 13:53:41,checkout-service,WARN,critico,error_rate=29%,INC-002,1,T009
+L0905,2026-10-13 13:53:42,payments-api,ERROR,critico,Timeout after 9294ms waiting for connection from pool,INC-001,1,T001
+L0906,2026-10-13 13:53:45,payments-api,ERROR,critico,Timeout after 4421ms waiting for connection from pool,INC-001,1,T001
+L0907,2026-10-13 13:53:48,payments-api,WARN,critico,pool exhausted active=50 idle=0 waiting=224,INC-001,1,T003
+L0908,2026-10-13 13:53:49,checkout-service,ERROR,critico,POST /checkout 500 dependency=payments-api order=65501,INC-002,1,T008
+L0909,2026-10-13 13:53:49,checkout-service,ERROR,critico,retry 3/3 failed,INC-002,1,T006
+L0910,2026-10-13 13:53:50,checkout-service,ERROR,critico,payment_confirmation_missing order=84027,INC-002,1,T007
+L0911,2026-10-13 13:53:52,api-gateway,ERROR,critico,upstream=payments-api status=502 count=223,INC-003,1,T013
+L0912,2026-10-13 13:53:55,payments-api,WARN,critico,pool exhausted active=50 idle=0 waiting=229,INC-001,1,T003
+L0913,2026-10-13 13:53:55,payments-api,WARN,critico,pool exhausted active=50 idle=0 waiting=479,INC-001,1,T003
+L0914,2026-10-13 13:53:55,payments-api,ERROR,critico,Timeout after 3298ms waiting for connection from pool,INC-001,1,T001
+L0915,2026-10-13 13:53:55,api-gateway,ERROR,critico,upstream=checkout-service status=500 count=62,INC-003,1,T014
+L0916,2026-10-13 13:53:57,db-primary,ERROR,critico,replication_lag=12s replica=db-replica-2,INC-004,1,T015
+L0917,2026-10-13 13:53:58,api-gateway,WARN,critico,circuit_breaker=OPEN upstream=payments-api,INC-003,1,T012
+L0918,2026-10-13 13:53:58,db-primary,ERROR,critico,replication_lag=14s replica=db-replica-2,INC-004,1,T015
+L0919,2026-10-13 13:53:59,auth-service,WARN,alto,login_failed rate=54% idp=timeout,INC-006,1,T023
+L0920,2026-10-13 13:54:04,checkout-service,WARN,critico,error_rate=6%,INC-002,1,T009
+L0921,2026-10-13 13:54:12,payments-api,WARN,critico,pool exhausted active=50 idle=0 waiting=239,INC-001,1,T003
+L0922,2026-10-13 13:54:12,checkout-service,ERROR,critico,POST /checkout 500 dependency=payments-api order=59184,INC-002,1,T008
+L0923,2026-10-13 13:54:12,inventory-service,INFO,alto,batch_update progress items=855,INC-007,1,T028
+L0924,2026-10-13 13:54:13,payments-api,ERROR,critico,HTTP 502 upstream=db-primary,INC-001,1,T004
+L0925,2026-10-13 13:54:15,api-gateway,WARN,critico,error_rate=74% threshold=5%,INC-003,1,T011
+L0926,2026-10-13 13:54:15,db-primary,WARN,critico,connections=51/500 (98%),INC-004,1,T019
+L0927,2026-10-13 13:54:15,auth-service,WARN,alto,idp_latency=1648ms,INC-006,1,T024
+L0928,2026-10-13 13:54:17,db-primary,WARN,critico,slow_query duration=5355ms table=transactions,INC-004,1,T016
+L0929,2026-10-13 13:54:18,payments-api,WARN,critico,pool exhausted active=50 idle=0 waiting=225,INC-001,1,T003
+L0930,2026-10-13 13:54:18,db-primary,ERROR,critico,replication_lag=12s replica=db-replica-2,INC-004,1,T015
+L0931,2026-10-13 13:54:20,payments-api,ERROR,critico,Timeout after 6749ms waiting for connection from pool,INC-001,1,T001
+L0932,2026-10-13 13:54:21,orders-worker,WARN,alto,consumer_slow avg_ms=1394,INC-005,1,T020
+L0933,2026-10-13 13:54:23,payments-api,WARN,critico,retry 17/3 upstream=db-primary,INC-001,1,T005
+L0934,2026-10-13 13:54:29,checkout-service,ERROR,critico,retry 3/3 failed,INC-002,1,T006
+L0935,2026-10-13 13:54:31,checkout-service,WARN,critico,error_rate=32%,INC-002,1,T009
+L0936,2026-10-13 13:54:32,orders-worker,WARN,alto,queue_depth=496 consumers=4 lag=19m,INC-005,1,T021
+L0937,2026-10-13 13:54:35,checkout-service,ERROR,critico,retry 3/3 failed,INC-002,1,T006
+L0938,2026-10-13 13:54:36,api-gateway,INFO,critico,autoscale requested replicas=6->10,INC-003,1,T010
+L0939,2026-10-13 13:54:37,payments-api,ERROR,critico,Timeout after 1532ms waiting for connection from pool,INC-001,1,T001
+L0940,2026-10-13 13:54:38,payments-api,ERROR,critico,Timeout after 941ms waiting for connection from pool,INC-001,1,T001
+L0941,2026-10-13 13:54:44,api-gateway,ERROR,critico,upstream=payments-api status=502 count=445,INC-003,1,T013
+L0942,2026-10-13 13:54:45,payments-api,WARN,critico,pool exhausted active=50 idle=0 waiting=406,INC-001,1,T003
+L0943,2026-10-13 13:54:45,api-gateway,WARN,critico,circuit_breaker=OPEN upstream=payments-api,INC-003,1,T012
+L0944,2026-10-13 13:54:46,db-primary,ERROR,critico,"FATAL: sorry, too many clients already",INC-004,1,T017
+L0945,2026-10-13 13:54:53,api-gateway,INFO,critico,autoscale requested replicas=6->10,INC-003,1,T010
+L0946,2026-10-13 13:54:54,inventory-service,INFO,alto,batch_update progress items=4271,INC-007,1,T028
+L0947,2026-10-13 13:54:55,payments-api,ERROR,critico,Timeout after 6340ms waiting for connection from pool,INC-001,1,T001
+L0948,2026-10-13 13:54:55,payments-api,WARN,critico,retry 6/3 upstream=db-primary,INC-001,1,T005
+L0949,2026-10-13 13:54:55,api-gateway,WARN,critico,error_rate=29% threshold=5%,INC-003,1,T011
+L0950,2026-10-13 13:54:58,payments-api,WARN,critico,retry 15/3 upstream=db-primary,INC-001,1,T005
+L0951,2026-10-13 13:54:58,auth-service,WARN,alto,idp_latency=3993ms,INC-006,1,T024
+L0952,2026-10-13 13:54:59,payments-api,WARN,critico,retry 7/3 upstream=db-primary,INC-001,1,T005
+L0953,2026-10-13 13:55:00,checkout-service,ERROR,critico,payment_confirmation_missing order=68522,INC-002,1,T007
+L0954,2026-10-13 13:55:02,payments-api,ERROR,critico,transaction_failed order=84686 reason=timeout,INC-001,1,T002
+L0955,2026-10-13 13:55:03,inventory-service,ERROR,alto,batch_update partial_failure failed=261 retry=scheduled,INC-007,1,T026
+L0956,2026-10-13 13:55:04,payments-api,WARN,critico,pool exhausted active=50 idle=0 waiting=342,INC-001,1,T003
+L0957,2026-10-13 13:55:04,api-gateway,WARN,critico,error_rate=35% threshold=5%,INC-003,1,T011
+L0958,2026-10-13 13:55:04,inventory-service,WARN,alto,reserved_mismatch sku=58419 expected=13 actual=362,INC-007,1,T027
+L0959,2026-10-13 13:55:05,payments-api,ERROR,critico,Timeout after 5787ms waiting for connection from pool,INC-001,1,T001
+L0960,2026-10-13 13:55:05,checkout-service,ERROR,critico,retry 3/3 failed,INC-002,1,T006
+L0961,2026-10-13 13:55:07,payments-api,WARN,critico,retry 5/3 upstream=db-primary,INC-001,1,T005
+L0962,2026-10-13 13:55:08,payments-api,ERROR,critico,Timeout after 7365ms waiting for connection from pool,INC-001,1,T001
+L0963,2026-10-13 13:55:08,api-gateway,ERROR,critico,upstream=payments-api status=502 count=454,INC-003,1,T013
+L0964,2026-10-13 13:55:10,checkout-service,ERROR,critico,payment_confirmation_missing order=58033,INC-002,1,T007
+L0965,2026-10-13 13:55:10,api-gateway,ERROR,critico,upstream=payments-api status=502 count=12,INC-003,1,T013
+L0966,2026-10-13 13:55:12,payments-api,WARN,critico,retry 11/3 upstream=db-primary,INC-001,1,T005
+L0967,2026-10-13 13:55:14,checkout-service,WARN,critico,error_rate=81%,INC-002,1,T009
+L0968,2026-10-13 13:55:14,db-primary,WARN,critico,lock_wait=3 blocked_sessions=156,INC-004,1,T018
+L0969,2026-10-13 13:55:16,db-primary,ERROR,critico,replication_lag=17s replica=db-replica-2,INC-004,1,T015
+L0970,2026-10-13 13:55:18,api-gateway,INFO,critico,autoscale requested replicas=6->10,INC-003,1,T010
+L0971,2026-10-13 13:55:19,payments-api,ERROR,critico,transaction_failed order=97367 reason=timeout,INC-001,1,T002
+L0972,2026-10-13 13:55:20,payments-api,ERROR,critico,transaction_failed order=95876 reason=timeout,INC-001,1,T002
+L0973,2026-10-13 13:55:20,api-gateway,ERROR,critico,upstream=payments-api status=502 count=459,INC-003,1,T013
+L0974,2026-10-13 13:55:21,payments-api,ERROR,critico,HTTP 502 upstream=db-primary,INC-001,1,T004
+L0975,2026-10-13 13:55:26,payments-api,ERROR,critico,HTTP 502 upstream=db-primary,INC-001,1,T004
+L0976,2026-10-13 13:55:26,checkout-service,ERROR,critico,POST /checkout 500 dependency=payments-api order=61756,INC-002,1,T008
+L0977,2026-10-13 13:55:27,checkout-service,ERROR,critico,retry 3/3 failed,INC-002,1,T006
+L0978,2026-10-13 13:55:28,auth-service,WARN,alto,idp_latency=2662ms,INC-006,1,T024
+L0979,2026-10-13 13:55:30,checkout-service,ERROR,critico,POST /checkout 500 dependency=payments-api order=95856,INC-002,1,T008
+L0980,2026-10-13 13:55:32,payments-api,ERROR,critico,HTTP 502 upstream=db-primary,INC-001,1,T004
+L0981,2026-10-13 13:55:33,db-primary,WARN,critico,lock_wait=3 blocked_sessions=116,INC-004,1,T018
+L0982,2026-10-13 13:55:34,payments-api,WARN,critico,retry 7/3 upstream=db-primary,INC-001,1,T005
+L0983,2026-10-13 13:55:34,payments-api,ERROR,critico,Timeout after 3147ms waiting for connection from pool,INC-001,1,T001
+L0984,2026-10-13 13:55:40,checkout-service,ERROR,critico,retry 3/3 failed,INC-002,1,T006
+L0985,2026-10-13 13:55:43,auth-service,ERROR,alto,token_refresh_failed user=u-59836,INC-006,1,T025
+L0986,2026-10-13 13:55:44,payments-api,ERROR,critico,HTTP 502 upstream=db-primary,INC-001,1,T004
+L0987,2026-10-13 13:55:44,checkout-service,WARN,critico,error_rate=57%,INC-002,1,T009
+L0988,2026-10-13 13:55:44,checkout-service,WARN,critico,error_rate=88%,INC-002,1,T009
+L0989,2026-10-13 13:55:45,checkout-service,ERROR,critico,retry 3/3 failed,INC-002,1,T006
+L0990,2026-10-13 13:55:46,checkout-service,ERROR,critico,retry 3/3 failed,INC-002,1,T006
+L0991,2026-10-13 13:55:47,checkout-service,ERROR,critico,payment_confirmation_missing order=60452,INC-002,1,T007
+L0992,2026-10-13 13:55:47,api-gateway,WARN,critico,error_rate=41% threshold=5%,INC-003,1,T011
+L0993,2026-10-13 13:55:48,api-gateway,WARN,critico,circuit_breaker=OPEN upstream=payments-api,INC-003,1,T012
+L0994,2026-10-13 13:55:49,db-primary,WARN,critico,slow_query duration=2357ms table=transactions,INC-004,1,T016
+L0995,2026-10-13 13:55:49,inventory-service,INFO,alto,batch_update progress items=1572,INC-007,1,T028
+L0996,2026-10-13 13:55:54,payments-api,ERROR,critico,transaction_failed order=75522 reason=timeout,INC-001,1,T002
+L0997,2026-10-13 13:55:54,checkout-service,ERROR,critico,payment_confirmation_missing order=55081,INC-002,1,T007
+L0998,2026-10-13 13:55:55,api-gateway,WARN,critico,error_rate=64% threshold=5%,INC-003,1,T011
+L0999,2026-10-13 13:55:57,payments-api,ERROR,critico,HTTP 502 upstream=db-primary,INC-001,1,T004
+L1000,2026-10-13 13:55:59,payments-api,ERROR,critico,HTTP 502 upstream=db-primary,INC-001,1,T004

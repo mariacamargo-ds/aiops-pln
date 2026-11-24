@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AIOps · Demonstração do plug-in</title>
+<link rel="icon" href="icons/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Montserrat:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="css/styles.css?v=3">
+</head>
+<body class="demo">
+<div class="demo-page" id="page">
+  <div class="demo-top">
+    <span aria-hidden="true">←  →  ⟳</span>
+    <div class="url">https://monitoramento.exemplo.com/dashboards/payments-api</div>
+    <div class="ext"><span class="ext-btn"><img src="icons/logo.svg" alt="">AIOps</span></div>
+  </div>
+  <div class="demo-body">
+    <div class="help"><b>Como testar:</b> esta é uma página de monitoramento <i>fictícia</i>. <b>Selecione com o mouse</b> o trecho de log abaixo e clique em <b>“Resumir com AIOps”</b>. O painel do plug-in, à direita, mostra o resumo. <a href="index.html" style="color:#7fe3d6">Ir para o painel completo →</a></div>
+    <h1>payments-api · Visão geral</h1>
+    <p style="color:#9aa0ae">Ferramenta de monitoramento (fictícia) — o plug-in funciona sobre qualquer página.</p>
+    <div class="panel-box"><b>Requisições com erro (última hora)</b>
+      <div class="fake-chart" id="fc" aria-hidden="true"></div></div>
+    <div class="panel-box"><b>Logs recentes</b>
+<pre id="logs">2026-10-13 13:52:07 ERROR payments-api Timeout after 30000ms waiting for connection from pool
+2026-10-13 13:52:08 ERROR payments-api HTTP 502 upstream=db-primary
+2026-10-13 13:52:08 WARN  payments-api pool exhausted active=50 idle=0 waiting=212
+2026-10-13 13:47:31 ERROR checkout-service POST /checkout 500 dependency=payments-api
+2026-10-13 12:58:02 WARN  cache-redis used_memory=87% evicted_keys=1320
+2026-10-13 11:36:50 INFO  notification-service retry batch=2 status=ok</pre></div>
+  </div>
+</div>
+<aside class="demo-dock"><iframe src="sidepanel.html" title="Painel lateral do plug-in AIOps"></iframe></aside>
+<script src="js/demo.js?v=3"></script>
+</body>
+</html>
